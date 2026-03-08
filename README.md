@@ -53,7 +53,7 @@ Train the Random Forest classifier with regularization parameters.
 
 Output a classification report (Precision, Recall, F1-Score).
 
-Save the model and vectorizer as .joblib files.
+Save the model and vectorizer as .md files.
 
 ## 🧪 Testing and Inference
 
