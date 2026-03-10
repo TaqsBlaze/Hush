@@ -3,8 +3,8 @@ import sys
 
 
 
-model = joblib.load("toxic_model.joblib")
-vectorizer = joblib.load("vectorizer.joblib")
+model = joblib.load("toxic_model.md5")
+vectorizer = joblib.load("vectorizer.md5")
 
 
 

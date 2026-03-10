@@ -48,7 +48,7 @@ print("Classification Report (Optimized for Overfitting):")
 print(classification_report(y_test, y_pred))
 
 
-joblib.dump(model, 'toxic_model.md')
-joblib.dump(vectorizer, 'vectorizer.md')
+joblib.dump(model, 'toxic_model.hush')
+joblib.dump(vectorizer, 'vectorizer.hush')
 
 print("Model and Vectorizer saved successfully.")

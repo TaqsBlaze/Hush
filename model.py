@@ -3,8 +3,8 @@ import sys
 
 
 
-model = joblib.load("toxic_model.joblib")
-vectorizer = joblib.load("vectorizer.joblib")
+model = joblib.load("toxic_model.hush")
+vectorizer = joblib.load("vectorizer.hush")
 
 
 try:

@@ -17,6 +17,7 @@ Model Artifacts
 It is often better to keep these out of Git if they are large
 
 *.joblib
+*.md5
 
 OS generated files
 
