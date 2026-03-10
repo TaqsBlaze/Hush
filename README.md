@@ -83,7 +83,7 @@ Example Usage Logic:
 
 import joblib
 
-# Load artifacts
+## Load artifacts
 model = joblib.load("toxic_model.joblib")
 vectorizer = joblib.load("vectorizer.joblib")
 
