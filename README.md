@@ -76,7 +76,7 @@ python model.py "You are doing a great job"
 Option B: Interactive Prompt
 
 python model.py
-# The script will prompt: Enter message: 
+**The script will prompt: Enter message:**
 
 
 Example Usage Logic:
@@ -84,8 +84,8 @@ Example Usage Logic:
 import joblib
 
 # Load artifacts
-model = joblib.load("toxic_model.joblib")
-vectorizer = joblib.load("vectorizer.joblib")
+model = joblib.load("toxic_model.hush")
+vectorizer = joblib.load("vectorizer.hush")
 
 # Predict using Hush logic
 text = ["Please be kind to others"]
@@ -97,25 +97,18 @@ print("Toxic" if prediction[0] == 1 else "Non-Toxic")
 
 ## 📊 Technical Details
 
-Algorithm: Random Forest Classifier
+*Algorithm:* SGDClassifier
 
-n_estimators=100
 
-max_depth=20
-
-min_samples_leaf=2
-
-class_weight='balanced'
-
-Feature Extraction: TF-IDF Vectorization
+*Feature Extraction:* TF-IDF Vectorization
 
 ngram_range=(1, 2)
 
 stop_words='english'
 
-max_features=2000
+max_features=1500
 
-Data Split: 80% Train / 20% Test (Shuffled)
+Data Split: 80% Train / 20% 
 
 ## 📝 License
 

@@ -18,36 +18,28 @@ X_train, X_test, y_train, y_test = train_test_split(
     df['label'], 
     test_size=0.3, 
     random_state=50, 
-    # shuffle=True
+    shuffle=True
 )
 
 vectorizer = TfidfVectorizer(
     stop_words='english', 
-    ngram_range=(1, 2), 
-    max_features=1500
+    ngram_range=(1, 4), 
+    max_features=8000
 )
 
 X_train_vec = vectorizer.fit_transform(X_train)
 X_test_vec = vectorizer.transform(X_test)
 
-# Train model with regularization:
-# 1. max_depth=20 prevents the trees from becoming too deep/complex.
-# 2. min_samples_leaf=2 ensures nodes only split if they result in meaningful groups.
-# 3. class_weight='balanced' helps if there's any slight imbalance in labels.
-model = SGDClassifier() #LogisticRegression()
 
-# RandomForestClassifier(
-#     n_estimators=100, 
-#     max_depth=10, 
-#     min_samples_leaf=4,
-#     random_state=21,
-#     class_weight='balanced'
-# )
+model = SGDClassifier(alpha= 0.00001) #LogisticRegression()
+
 
 model.fit(X_train_vec, y_train)
 
 y_pred = model.predict(X_test_vec)
-print("Classification Report (Optimized for Overfitting):")
+
+print(f"Iterations: {model.n_iter_}")
+print("Classification Report:")
 print(classification_report(y_test, y_pred))
 
 
