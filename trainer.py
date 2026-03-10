@@ -2,6 +2,7 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.linear_model import LogisticRegression, SGDClassifier
 from sklearn.metrics import classification_report
 import joblib
 
@@ -15,15 +16,15 @@ df = df.dropna()
 X_train, X_test, y_train, y_test = train_test_split(
     df['text'], 
     df['label'], 
-    test_size=0.2, 
-    random_state=42, 
-    shuffle=True
+    test_size=0.3, 
+    random_state=50, 
+    # shuffle=True
 )
 
 vectorizer = TfidfVectorizer(
     stop_words='english', 
     ngram_range=(1, 2), 
-    max_features=2000
+    max_features=1500
 )
 
 X_train_vec = vectorizer.fit_transform(X_train)
@@ -33,13 +34,15 @@ X_test_vec = vectorizer.transform(X_test)
 # 1. max_depth=20 prevents the trees from becoming too deep/complex.
 # 2. min_samples_leaf=2 ensures nodes only split if they result in meaningful groups.
 # 3. class_weight='balanced' helps if there's any slight imbalance in labels.
-model = RandomForestClassifier(
-    n_estimators=100, 
-    max_depth=20, 
-    min_samples_leaf=2,
-    random_state=21,
-    class_weight='balanced'
-)
+model = SGDClassifier() #LogisticRegression()
+
+# RandomForestClassifier(
+#     n_estimators=100, 
+#     max_depth=10, 
+#     min_samples_leaf=4,
+#     random_state=21,
+#     class_weight='balanced'
+# )
 
 model.fit(X_train_vec, y_train)
 
