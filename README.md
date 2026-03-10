@@ -1,6 +1,6 @@
 ![icon](https://raw.githubusercontent.com/TaqsBlaze/Hush/refs/heads/main/image/image.png)
 
-# Hush - Text Toxicity Classifier
+# Hush - Text Classifier
 
 Hush is a lightweight, efficient machine learning model designed to detect toxic language in text. Using a combination of Natural Language Processing (NLP) techniques and ensemble learning, Hush classifies phrases into "Toxic" (1) and "Non-Toxic" (0) categories, helping to maintain healthier digital environments by "hushing" harmful content.
 
