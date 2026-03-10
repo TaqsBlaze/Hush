@@ -83,9 +83,9 @@ Example Usage Logic:
 
 import joblib
 
-## Load artifacts
-model = joblib.load("toxic_model.joblib")
-vectorizer = joblib.load("vectorizer.joblib")
+### Load artifacts
+model = joblib.load("toxic_model.hush")
+vectorizer = joblib.load("vectorizer.hush")
 
 # Predict using Hush logic
 text = ["Please be kind to others"]
