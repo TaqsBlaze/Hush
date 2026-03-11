@@ -25,7 +25,7 @@ text,label
 "Regai ndikuudzei chokwadi, imi muri vanhu vakapusa vanotungamirirwa nemunhu asina kana pfungwa imwechete.",1
 "Basa ramakaita rekugadzira mugwagwa uyu rakakosha zvikuru kwatiri tese.",0
 "Iwe mupengo, unongopenga pasina kana chikonzero, unofanira kuiswa kuChikurubi nekuti pfungwa dzako hadzisi dzevanhu.",1
-"Ndinokushuvira zvakanaka mubvunzo dzako dzechikoro dzauri kunyora svondo rinouya.",0
+"Ndinokushuvira zuva rine mufaro nekubudirira pazvose zvamunobata.",0
 "Tarisa uone marara amakasiya apa. Hamuna kana kudzidza hunhu? Muri mhuka chaidzo dzisingazivi kuchengetedza nzvimbo.",1
 "Vana vese vanofanira kuenda kuchikoro kuti vave neramangwana rakanaka.",0
 "Uri tsuro inotsvaka mhuka imwe chete iyo iwe pachako hauzivi kuti chii. Uri dambu chairo.",1
@@ -35,20 +35,20 @@ text,label
 "Wadii kumbonyarara uone kuti upenyu huri kufamba sei? Uri kuita sepfungwa dzako dzakaora senyama yasiiwa pazuva.",1
 "Ndafadzwa chose nekuona kurima kwamuri kuita, muri varimi vechokwadi.",0
 "Uri chigandanga chinofamba chichingotyisidzira vanhu. Rimwe zuva uchasungwa ukaona kuti nyika haisi yako wega.",1
-"Ndinoshuvira kuti rwendo ruko rwekudivi reku Bulawayo ruve rwakachengeteka chose.",0
+"Ndinoshuvira kuti rwendo rwenyu rwekudivi reku Bulawayo ruve rwakachengeteka chose.",0
 "Vanhu vakafanana nemwi vanokodzera kungoraswa mugaba remarara nekuti muri tsvina chete isina pundutso.",1
 "Zvinofadza chose kuona mhuri dzichibatana mumabasa echechi kana enharaunda.",0
 "Uri munhu asina pfungwa, wakangosimba muviri asi musoro wako wakangozara nejecha nezvidhina.",1
 "Ndinokutendai nerudo rwamunoratidza vana vanoshaya, basa iri rakakura chose.",0
-"Imi muri mapenzi akapedza kufunga. Hamuzivi here kuti zvamuri kuita zvichakuparadzai pakupedzisira?",1
-"Zvitoro zvemuno mazuva ano zvave nezvinhu vakawanda zvinodiwa nevanhu.",0
+"Imi muri mapenzi akapedza kufunga. Hamuzivi here kuti zvamuri kuita zvichakuparadzai pakupedzirira?",1
+"Zvitoro zvemuno mazuva ano zvave nezvinhu zvakawanda zvinodiwa nevanhu.",0
 "Uri mbabvu yakaoma isingagoni kana kunzi munhu. Unongofamba uchitsvaka kwaunogona kuba chete.",1
 "Kuwirirana nevavakidzani kunoita kuti musha uve nerunyararo nekufara.",0
 "Hamuna hunhu, hamuna ruremekedzo, hamuna kana chimwe chinhu chakanaka chamunogona kuitira vamwe.",1
 "Ndinotenda nekundikweretesa sando yako, ndapedza nayo basa zvino ndave kuda kuidzosera.",0
 "Uri tsvina yemunhu, wakanyanya kuipa zvekuti nemadhaka chaiwo ari nani pane iwe.",1
 "Gore rino zhizha ratanga zvakanaka, tinotenda kuna Musiki nerubatsiro rwemvura.",0
-"Pfungwa dzako dziri kumashure zvekuti unotoita semunhu akararama munguva yematombo. Uri rema rekupedzisira.",1
+"Pfungwa dzako dziri kumashure zvekuti unotoita semunhu akararama munguva yematombo. Uri rema rekupedzirira.",1
 "Ndinoda kukukumbira kuti utibatsirewo kudzidzisa vana vedu mimhanzi pakupera kwesvondo.",0
 "Uri pfambi inofamba ichingoparadzira chirwere pasina kana nyadzi dzekurwadziwa nemunhu.",1
 "Zvinhu zvakanaka zvinouya kune vanoziva kumirira vachishanda nesimba.",0
@@ -59,369 +59,449 @@ text,label
 "Hauna kana kumbodzidza tsika dzechiAfruca iwe. Uri murungu mutema anofunga kuti pfungwa dzekune vamwe ndidzo dzakanaka.",1
 "Makorokoto nekupedza chikoro kwemwanasikana wenyu, tinofara nemi.",0
 "Uri munhu asina mwoyo, unofara nekutambudzika kwevamwe. Uri satani chaiye anofamba panyika.",1
-"Ndinotenda chose nekundizivisa nezvechirongwa chitsva chekuchenesa misha yedu. Tichauya tese.",0
-"Zitunha remunhu risina kana pfungwa, urikutomanya uchiti uri munhu iwe? Uri matuzvi chaiwo.",1
-"Mazuva ano vana vari kukura zvakanaka uye vave kushingaira nezvidzidzo zvavo. Zvinofadza.",0
-"Unoziva uri benzi chairo risingambonzwisisi. Musoro wako wakafanana nedombo risinganyungudiki.",1
-"Ndinovimba kuti rwendo rwenyu rwekuHarare ruchave rwakachengeteka. Mwari akutungamirirei.",0
-"Uri mbavha isina nyadzi, unongofamba uchiba kune vamwe asi uchizviita sekunge unhu hwako hwakanaka.",1
-"Basa ramakaita pamunda iro rakanaka chose. Zvibage zvacho zvinoyevedza zvikuru.",0
-"Regai ndikuudzei chokwadi, imi mose muri marara. Hamuna kana chamunoziva kunze kwekungopopota semadzimai.",1
-"Ndafara chose kunzwa kuti sekuru vave nani kubva kuchipatara. Tiramba tichiita munyengetero.",0
-"Hupenyu hwako huchazara nekurwadziwa nekuti wakashata mwoyo unenge nyoka ine muchetura.",1
-"Tatenda chose nekutipa mukana wekudzidza kuruka mabhasikiti aya. Zvichatibatsira chose.",0
-"Uri munhu anopenga, pfungwa dzako dzakarasika kure. Zviri nani uende kuNgomahuru unopihwa mapiritsi.",1
-"Ndinokushuvira rombo rakanaka pabhizinesi idzva rauri kutanga. Ramba wakashinga.",0
-"Dambudzo rako nderekuti unofunga kuti wakachenjera asi uri rema chairo risingagoni kana kufunga.",1
-"Zvinofadza kuona mhuri ichidya pamwechete ichiseka nekufara. Hunhu hwedu hwechiShona.",0
-"Uri chikorokoza chakaipa mwoyo, unongoda kudya zvedikita revamwe. Uchafa uchiita nungo dzauri.",1
-"Muriwo wasimwa mumunda uyo unoratidza kuti uchapa goho rakanaka. Tatenda nemvura iyi.",0
-"Uri dhidha chairo rinongozunza musoro richiita seriri kunzwa asi musoro wacho wakashama.",1
-"Ndinokushuvira hupenyu hurefu uye mufaro unouya kubva kuukama hwakanaka nevanhu.",0
-"Unozviita munhu mukuru asi uri mwana asina kudzidza tsika. Uri dhidha remunhu.",1
-"Ndinotenda nerubatsiro rwawakapa mwanangu pakudzidza kwake svondo rakapera. Mwari akuropafadze.",0
-"Zvamunoita izvozvo ndezvemapenzi. Hamungambobudirira kana mukaramba muchiita ubenzi hwenyu.",1
-"Ndafara chose nekuona mufananidzo wemuzukuru wedu. Akura chose mwana uyu.",0
-"Uri munhu asina ruremekedzo pamberi pevakuru. Uri imbwa inongohukura pasina kana kwainoenda.",1
-"Mazuva ano kunze kwakatonhorera, ndinovimba kuti mose muri kuzvichengetedza.",0
-"Wadii kutaura chokwadi pane kuramba uchinyepa? Uri murevi wenhema, unhu hwako hwakaora sechipfukuto.",1
-"Basa ranhasi ranga rakakura asi tapa kwayo nekubatana. Tatenda nhengo dzese dzenharaunda.",0
-"Uri rema rekupedzisira rinongotevera zvinotaurwa nevamwe pasina kuziva kuti uri kuraswa.",1
-"Ndinokushuvira kuseka nekufara muhupenyu hwako hwese hwasara panyika.",0
-"Uri benzi rinofamba rine musoro wakafanana nekapu isina tii. Hamuna chinhu mumusoro macho.",1
-"Ndinovimba tichazobatana zvakare mumabasa edu ebudiriro gore rino.",0
-"Uri muroyi wemazuva ano anofamba akazora mafuta emandiriri. Unhu hwako hwakashata zvikuru.",1
-"Ndafara nekuona kuti vana vari kuramba vachiita mitambo yechinyakare.",0
-"Wadii kundoedza pfungwa dzako kune vamwe vanhu? Isu takakukunda kare, uri rombe rechokwadi.",1
-"Ndinotenda nerudo neushingi hwaratidzwa nevekuchipatara nezuro. Mwari vave nemi.",0
-"Uri tsvina yemunhu, hamuna kana kudzidziswa here kuti unhu ndizvo zvinokuchengetai?",1
-"Gore rino tichange tave nemvura yakawanda, ticharima zvirimwa zvakasiyana.",0
-"Uri munhu asina maturo, unongofamba uchizvirova dundundu asi uri nhapwa yehurombo.",1
-"Ndinoda kukukumbira kuti uve mumwe wevanhu vachatungamirira musangano wedu wechikoro.",0
-"Unozviita munhu asi unhu hwako hwakafanana nemhuka yesango isingazivi runyararo.",1
-"Zvinofadza chose kuona kurima kwamuri kuita panzvimbo yenyu iyi.",0
-"Uri zinyoka rinochengetera ruvengo mumwoyo mako. Rimwe zuva ucharumwa nechemumwoyo mako imomo.",1
-"Ndinokushuvira ushingi hwekukunda matambudziko ose amungasangana nawo.",0
-"Muri vanhu vakapusa chose vanotenda zvese zvinotaurwa nemasocial media. Hamuna pfungwa.",1
-"Tatenda neruzivo rwamakatipa nezvekuchengetedza huku. Zvichatibatsira zvikuru pakuriritira mhuri.",0
-"Uri rema rinongofunga kuti upfumi hunouya nekurara. Uchadya mabwe iwe ungozviona.",1
-"Ndinovimba kuti gore rino richatipa rugare nemufaro wakazara.",0
-"Uri munhu akanyanya kuipa chose, nemweya wetsvina uri nani pane iwe.",1
-"Zvekudya zvamabika nhasi zvakafanana neizvo zvaibikwa naambuya vedu. Zvinonaka!",0
-"Unoita seunonzwisisa asi uri benzi chairo rine musoro unongofunga zvekudya chete.",1
-"Ndafara chose kunzwa kuti mapedza kuvaka imba yenyu itsva. Makorokoto!",0
-"Uri imbwa yemunhu, wakanyanya kushata mwoyo zvekuti unozvondwa nevanhu vese munharaunda.",1
-"Ndinoshuvira kuti mutambo wechidiki unofambira mberi zvakanaka muguta redu.",0
-"Wadii kumbonyarara uone kuti pfungwa dzevamwe dziri kufamba sei? Uri rema rekupedzisira.",1
-"Ndinotenda nerubatsiro rwemari rwamakandipa panguva yandanga ndakaomerwa.",0
-"Uri dhidha rinofamba rine musoro uzere nemanyepo nemakuhwa. Hamuna kana hunhu iwe.",1
-"Ndinovimba kuti mvura iyi ichatibatsira panyaya dzekurima nekuchengetedza zvipfuyo.",0
-"Uri munhu asina maturo, wakangofanana nemoto wehuswa unokurumidza kudzima.",1
-"Tatenda nekuuya kwamaita kuzotiona isu vanhu vakuru. Mwari vakuropafadzei.",0
-"Iwe uri zibenzi rinofamba richiti rine pfungwa asi musoro wako wakashama semusuwo wemba yasiiwa.",1
-"Ndafara nekuona kuti munhu wese ari kushingairira kuchengetedza tsika dzedu dzechiShona.",0
-"Uri rema rinongofunga kuti nyika inobatwa nemasimba. Pasi nepfungwa dzako idzodzo dzekupenga.",1
-"Ndinokushuvira zuva rine mufaro nekubudirira pazvirongwa zvako zvese.",0
-"Uri munhu akashata mwoyo, unofara nekutambudzika kwevamwe. Uri dhiabhorosi chaiye.",1
-"Zvinofadza kuona vechidiki vachikudza vakuru munzira dzinoyevedza.",0
-"Unozviita munhu akadzidza asi pfungwa dzako dziri kumashure. Uri duutuu risingabatsiri chinhu.",1
-"Ndinotenda nerutsigiro rwamakatipa panyaya yemichato yevana vedu. Makorokoto!",0
-"Uri imbwa inongohukura nguva dzese isingazivi kuti chii chirikunetsa. Pfungwa dzako dzakaora.",1
-"Ndinovimba kuti zhizha rino richava nerunyararo chose munharaunda yedu.",0
-"Uri benzi rinofamba richiti riri munhu asi musoro wako uzere nehutsi chete. Uri rema.",1
-"Ndafadzwa chose nekuona budiriro yauri kuita panyaya yezvipfuyo zvako.",0
-"Uri munhu asina basa, pfungwa dzako dzakaipa kudarika mweya wetsvina. Uri mhuka chaiyo.",1
-"Ndinotenda nemazwi amataura enhungamiro panguva yatinoda mazano.",0
-"Unoita sekunge unonzwisisa asi uri duutuu chairo risingagoni kana kuzvibatsira pane zvidiki.",1
-"Mazuva ano kunze kuri kupisa chose, ndinovimba muri kuedza kuzvichengetedza.",0
-"Uri mbavha yemunhu, hauna kana hunhu hwawakadzidziswa nemubereki. Uri muroyi chaiye.",1
-"Tatenda chose nekutitungamirira mumabasa ebudiriro panguva yeizvi zvirongwa.",0
-"Uri munhu anopenga unofanira kusungwa ukaendeswa kure nevanhu vakachenjera. Uri rema.",1
-"Ndinovimba ticharamba takabatana souchi kuitira kuti musha wedu uchinje.",0
-"Uri benzi rinofamba richiti rine njere, asi chokwadi ndechekuti uri rema rekupedzisira.",1
-"Ndafara nekuona kuti vana vedu vari kushingairira chikoro gore rino.",0
-"Unozviita munhu ane rudo asi mumwoyo mako makazara neunyengeri nemanyepo. Uri zinyoka.",1
-"Ndinotenda neruzivo rwamakatipa panyaya yekuchengetedza utano hwemhuri yedu.",0
-"Uri dhidha rinofamba rine musoro wakafanana nechirongo chakabuda mhepo. Hamuna kana njere.",1
-"Zvinofadza kuona kuti nhoroondo dzedu dzechinyakare hadzisi kurasika.",0
-"Uri munhu asina basa munharaunda yedu, unongofamba uchingoparadzira makuhwa. Uri tsvina.",1
-"Ndinokushuvira runyararo nekunzwisisa muhupenyu hwako hwezuva nezuva.",0
-"Unoita seunozvibata asi pfungwa dzako dzakaora sechipfukuto mumuzambiringa. Uri rombe.",1
-"Ndafadzwa chose nekuona hushingi hwaratidzwa nevabereki pakutsigira vana.",0
-"Uri imbwa inongofamba ichihukura pasina kwainoenda. Pfungwa dzako dzekupenga dzichakupinza muna mhamha.",1
-"Ndinotenda nerutsigiro rwamakatipa panyaya yekuvaka matura edu echibage.",0
-"Uri rema rinongofunga kuti upfumi hunouya nemasimba emuroyi. Unopenga chose iwe.",1
-"Ndinovimba kuti mose muchange muine zororo rakanaka pakupera kwesvondo.",0
-"Uri munhu akashata mwoyo, hauna kana mufaro unouya mumwoyo mako. Uri muroyi chairo.",1
-"Tatenda nekubatsira kwamakaita pakuchenesa panzvimbo yevanhu vese nezuro.",0
-"Unozviita munhu akadzidza asi unhu hwako hwakafanana nemhuka yesango isingazivi tsika.",1
-"Ndafara nekuona kuti muzukuru wedu ave kugona kutaura rurimi rwamai zvakanaka.",0
-"Uri benzi rinofamba richiti rine pfungwa asi uri duutuu risingagoni kana kuzvibatsira.",1
-"Ndinokushuvira makomborero akawanda kubva kuna Mwari pazvose zvamunobata.",0
-"Uri rema rekupedzisira rinongofungidzira kuti rinodikanwa nevanhu asi uri tsvina chete.",1
-"Zvinofadza kuona kuti vana vari kukudza tsika dzedu pasina kunyara.",0
-"Unoita seunonzwisisa asi musoro wako wakashama sechirongo chaboorwa pasi. Uri dhidha.",1
-"Ndinotenda nerudo rwamakatiratidza patanga tiri mukusuwa. Mwari vakuropafadzei.",0
-"Uri muroyi wamazuva ano anozora mafuta anonhuwa pfungwa dzevamwe. Uri munhu akanyanya kuipa.",1
-"Ndafadzwa chose nekuona kurima kwamuri kuita pamba penyu iyo. Goho rakanaka!",0
-"Uri imbwa inongoitira tsvina pose painofamba. Hauna kana hunhu hwechiShona iwe.",1
-"Ndinokushuvira zororo rine runyararo nekunaka pakupera kwemwedzi uno.",0
-"Uri benzi rinofamba rine musoro uzere nemhepo nenyere. Hamuna kana pfungwa mumusoro macho.",1
-"Tatenda neruzivo rwamakatipa panyaya dzekurapa huku dzedu dzechivanhu.",0
-"Uri rema rinongofunga kuti upfumi hunouya nekunyepera vamwe. Uchafa uchiita nhamo.",1
-"Ndinovimba kuti vana vacharamba vachishingaira nemitambo yavo yekuchikoro.",0
-"Unozviita munhu ane rudo asi mumwoyo mako makazara neunyengeri. Uri zinyoka rine muchetura.",1
-"Ndafara chose kunzwa kuti vabereki vedu vave kurarama zvakanaka ikoko kumusha.",0
-"Uri imbwa yemunhu, wakanyanya kushata mwoyo zvekuti unozvondwa nenyeredzi dzose.",1
-"Ndinotenda nekutipa mukana wekudzidza kuruka mabhasikiti mazuva ano.",0
-"Uri munhu anopenga unofanira kuvharirwa kure nevanhu vanonzwisisa. Uri duutuu.",1
-"Zvinofadza kuona mhuri dzichibatana mumabasa echechi kana enharaunda.",0
-"Uri benzi rinofamba richiti riri munhu asi musoro wako uzere nehutsi. Uri rema chairo.",1
-"Ndinokushuvira ushingi nekutsungirira pazvose zvamunosangana nazvo.",0
-"Unoita seunozvibata asi pfungwa dzako dzakaora sechipfukuto mumuzambiringa. Uri tsvina.",1
-"Ndafara nekuona budiriro yauri kuita pakuvaka imba yako itsva. Makorokoto!",0
-"Uri imbwa inongofamba ichihukura pasina kana kwainoenda. Pfungwa dzako dzekupenga dzichakupedza.",1
-"Ndinotenda nerutsigiro rwamakatipa panyaya yekuchengetedza nharaunda yedu.",0
-"Uri rema rinongofunga kuti upfumi hunouya nekuroya vamwe. Unopenga chose iwe.",1
-"Ndinovimba kuti mose muchange muine svondo rakanaka chose rekubudirira.",0
-"Uri munhu akashata mwoyo, hauna kana mufaro unouya muhupenyu hwako. Uri muroyi.",1
-"Tatenda chose nekubatsira kwamakaita pakugadzira mugwagwa wedu nezuro.",0
-"Unozviita munhu akadzidza asi unhu hwako hwakafanana nemhuka yesango. Uri dhidha.",1
-"Ndafara nekuona kuti muzukuru wedu ave kugona kutaura zvakanaka chikoro.",0
-"Uri benzi rinofamba richiti rine pfungwa asi uri duutuu chairo. Uri rema.",1
+"Moms vakandifonera vachiti ndibatsire nekurima panze. Ndanzwa kushingaira.",0
+"Iwe sapa yemunhu, unongofamba uchinyepa sembwa inotsvaka tsvina.",1
+"Takanozvambaradzwa kuden kwanaka. Ndabhuya mbinga yacho iri bho.",0
+"Chapa chako iwe, urikutonga ani munyika muno iwe uri rombe chairo.",1
+"Ndakadhakwa chose nezuro, asi shamwari dzangu dzakandichengetedza kusvika kumba.",0
+"Uri sata yemunhu, musoro wacho wakafanana nematuzvi chaiwo.",1
+"Tiri kutsvaga kuroja mumba mune rugare, kana pane anozivawo tibatsireiwo.",0
+"Gunu rwemunhu, uri kuramba uchitaura uchiti chii iwe uri pfambi yemunhu.",1
+"Vechidiki mazuva ano vari kutoita mari nehunyanzvi hwecomputers. Zvakanaka chose.",0
+"Ndichakudhinda kumeso iwe, usandidheerera pamberi pevanhu. Uri mada wemunhu.",1
+"Ndafara kuona moms vako nhasi, vari kutaridza utano hwakanaka.",0
+"Uri mutuzvi chaiwo, hamuna hunhu hwakanaka hwawakabva nahwo kumusha.",1
+"Zvakakora mwanangu, ramba uchidzidza nesimba uchazove mbinga rimwe zuva.",0
+"Iwe chihure chemunhu, uri kungonhuwa rudo rwekunyepa iwe uri imbwa.",1
+"Ndinoda kunwa tii inopisa nemukaka wakawanda mangwanani oga oga.",0
+"Ndichakusura musoro iwe, usatambe neni. Uri chihute chairo.",1
+"Gogo vacho vakanaka chose, vari kuramba vachiita minda yavo nemazvo.",0
+"Uri mumunyo yemunhu, hamuna kana chikonzero chekurarama panyika pano.",1
+"Takaenda ku party tikahuta zvinhu zvakaoma. Dhaka racho rakanga rakashata.",0
+"Uri suva yemunhu, unongoda kudya zvisiri zvako uchishandisa muromo.",1
+"Makorokoto mbinga yangu, ramba uchitsvaga mari tigoita mabiko.",0
+"Mada wamai vako iwe, usandijairire paface yangu pano.",1
+"Ndinovimba tichawana chibage chakawanda gore rino tigo riritira mhuri.",0
+"Uri chapa chine musoro, unongofamba uchingoparadza hupenyu hwevamwe.",1
+"Bho zvaizvozvo mukoma, ndichasvika kuden kwenyu manheru ano titaure.",0
+"Dhapa remunhu, uri kungonyara pamberi pevanhu iwe uri mbavha.",1
+"Sekuru vakatiudza nhoroondo dzakanaka dzekare dzehondo yerusununguko.",0
+"Gunu remunhu iwe, hauna kana brain imwechete mumusoro mako mumunyo.",1
+"Ndafara chose kuti pombi yemvura yagadziriswa nhasi mudhorobha.",0
+"Uri sata chaiyo, yakanyanya kuipa zvekuti unotosemesa kutarisa.",1
+"Ndinozorara na 9 o'clock manheru oga oga kuti ndimuke ndine simba.",0
+"Ndichakubaya nenyere iwe usandijairira. Uri mada wemunhu.",1
+"Musikana iyeye ane rudo chose uye anozvibata pamberi pevakuru.",0
+"Uri pongo remunhu, unofunga kuti uri mbinga iwe uri rombe chairo.",1
+"Takatenga nyama yehuku tikadya nemhuri yese panguva yeChisimusi.",0
+"Sapa rako iwe, hamuna kana kudzidza kurarama nevanhu zvakanaka.",1
+"Ndinoda kudzidza kutyaira motokari kuitira kuti ndizofambise basa rangu.",0
+"Iwe mutuzvi, hauna kana mwoyo unonzwa kurwadziwa kwevamwe vanhu.",1
+"Nguva yekudzidza yasvika, vana vese pinda muzvidzidzo zvenyu nesimba.",0
+"Ndichakutsemura musoro nemabwe iwe mada wepa road.",1
+"Mazuva ano kuroja kwadhura chose, tiri kutsvaga padhuze nechikoro.",0
+"Uri pfambi yakaoma muromo, unongotenderera uchitsvaka varume mazuva ose.",1
+"Ndinokushuvira mufaro mukuru pamuchato wenyu uchaitwa mwedzi unouya.",0
+"Gunu rako iwe, usandiudze nhoroondo dzeunyengeri hwako imbwa iwe.",1
+"Ndafara kuona kuti mugwagwa wedu wagadziriswa zvakare nevekanzuru.",0
+"Iwe sata chaiyo, uri kungoita kunge munhu iwe uri mhuka yesango.",1
+"Zvinhu zviri kufamba bho mwanangu, ramba wakashinga pabasa rako.",0
+"Uri mutuzvi hwevanhu, unhu hwako hunosemesa kudarika chimbuzi.",1
+"Sekuru vakatibatsira kurera vana munguva yatanga tiri kubasa kure.",0
+"Chapa chako iwe, usandidherere ndichakurova kusvika wachema sapa.",1
+"Mazuva ano vanhu vari kudya zviri kuitwa nevanhu vemunharaunda.",0
+"Uri mada wamai vako iwe, unongoita seunoziva zvose iwe uri benzi.",1
+"Ndafara chose kuti tagona kupedza kuvaka imba yedu isati yatsva.",0
+"Suva rako, hamungambofa makakunda miedzo yeupenyu nemwoyo wakaipa.",1
+"Ndakadzidza kutaura rurimi rwechirungu kuti ndibatsire vashanyi vari muno.",0
+"Uri sata chaiyo inofamba yakazora mafuta eruvengo kune vamwe vanhu.",1
+"Nguva dzekunaya dzinofadza varimi vakawanda chose munyika muno.",0
+"Iwe chihure chemunhu, uri pfambi inongofamba ichitsvaka mari kune vakuru.",1
+"Ndinovimba kuti gore rino tichave negovero riri nani pazvinhu zvese.",0
+"Gunu rako imbwa iwe, usandijairira ndichakurova kusvika wafa.",1
+"Musikana uyo ane hunhu hwakanaka uye anoremekedza vakuru vechechi.",0
+"Uri mutuzvi chaiwo unofamba uchiti uri mbinga iwe uri rombe pongo.",1
+"Tiri kuronga kuenda kuzororo kuNyanga tese semhuri yose svondo rino.",0
+"Mada wako iwe, unofunga kuti pfungwa dzako ndidzo dzinobatsira nyika.",1
+"Ndinotenda nerudo rwamunoratidza vashanyi vanouya mumusha medu.",0
+"Iwe suva rako, hamuna kana hunhu hwekutaura nevanhu vakuru mumunyo.",1
+"Gore rino zhizha ratanga zvakanaka chose, mvura inonyatsorova pasi.",0
+"Uri chapa chine mutuzvi mukati, hauna kana pundutso iwe.",1
+"Ndaverenga bhuku ramakatipa nezuro, rine mazano akanaka ekuchengetedza mari.",0
+"Gunu rako iwe mada wepa road, usandijairira ndichakupwanya.",1
+"Ndafara nekuona kuti vana vedu vari kushingairira mitambo yevechidiki.",0
+"Uri sapa yemunhu, hamungambofa makawana rugare nemwoyo une daka.",1
+"Ndinovimba tichava nerunyararo chose panguva yesarudzo dzeupenyu.",0
+"Uri mada wamai vako iwe imbwa inonyepa semunhu asina ruremekedzo.",1
+"Basa ramakaita pamunda iro rakanaka chose, ndafadzwa naro zvikuru.",0
+"Iwe sata chaiyo, musoro wako wakafanana nekapu yakabooka pamberi pevanhu.",1
+"Ndinoshuvira kuti zuva ranhasi rive rine mufaro nekubudirira chose.",0
+"Uri mutuzvi chaiwo gunu remunhu, uri kungonhuwa rudo rwenhema.",1
+"Sekuru vedu vakura chose asi vachiri kugona kurima munda wavo.",0
+"Chapa chako iwe mada wepa road, uri kurarama nekunyepera vamwe.",1
+"Ndafara nekuona kuti tagona kupedza zvidzidzo zvedu zvakaoma muna mwedzi.",0
+"Uri pongo remunhu, hamuna kana pfungwa dzekubatsira mhuri iwe mbinga nhema.",1
+"Ndinoda kunyengetera mangwanani oga oga kuitira kuti zuva rifambe bho.",0
+"Iwe sapa rako, musoro wako wakafanana nedombo riri mumvura mumunyo.",1
+"Mazuva ano dhorobha razara nevanhu vakawanda chose vanotsvaka mari.",0
+"Mada wako iwe imbwa inongofamba ichihukura pasina kwainoenda.",1
+"Ndinovimba kuti vana vedu vachava neramangwana rakajeka chose gore rino.",0
+"Uri gunu remunhu pongo pongo, hamuna kana hunhu hwekuziva mhuri yakanaka.",1
+"Takaenda ku bhenga tikatora mari yedu yekuronga mabasa emubhizinesi.",0
+"Suva rako mada wepa road, uri kungonzwa kuda kuzvirova dundundu.",1
+"Ndafara kuona shamwari yangu yepamwoyo nhasi mushure menguva refu.",0
+"Iwe chapa chine hutsi, uri kungofamba uchinyengera vakadzi vevanhu.",1
+"Sekuru vakatenga mombe itsva dzekuti tirime nadzo gore rino kumusha.",0
+"Uri sata chaiyo inofamba yakazora tsvina kumeso kwake chose chose.",1
 "Ndinokushuvira makomborero akawanda pazvose zvaunobata nemaoko ako.",0
-"Uri rema rekupedzisira rinongofungidzira kuti rinodikanwa nevanhu asi uri tsvina.",1
-"Zvinofadza kuona kuti vana vari kukudza tsika dzedu pasina kutya vakuru.",0
-"Unoita seunonzwisisa asi musoro wako wakashama semusuwo wemba yasiiwa. Uri dhidha.",1
-"Ndinotenda nerudo rwamakatiratidza patanga tiri kusuwa mwedzi wakapera.",0
-"Uri muroyi wamazuva ano anofamba akazora manyepo pamberi pevanhu. Uri munhu akaipa.",1
-"Ndafadzwa chose nekuona kurima kwamuri kuita panzvimbo yenyu iyi. Tatenda nemvura.",0
-"Uri imbwa yechirume inongotenderera ichingoda kuruma vanhu pasina kana chikonzero.",1
-"Ndinokushuvira zororo rine runyararo nekunaka pamoyo pako nemhuri.",0
-"Uri benzi rinofamba rine musoro wakafanana nekapu isina tii. Hamuna kana njere.",1
-"Tatenda neruzivo rwamakatipa panyaya dzekurapa huku dzedu dzechivanhu.",0
-"Uri rema rinongofunga kuti upfumi hunouya nekurara. Uchadya mabwe iwe ungozviona.",1
-"Ndinovimba kuti vana vacharamba vachishingaira nemitambo yavo yekuchikoro.",0
-"Unozviita munhu ane rudo asi mumwoyo mako makazara neunyengeri. Uri zinyoka.",1
-"Ndafara chose kunzwa kuti vabereki vedu vave kurarama zvakanaka kumusha.",0
-"Uri imbwa yemunhu, wakanyanya kushata mwoyo zvekuti unozvondwa nenyika yese.",1
-"Ndinotenda nekutipa mukana wekudzidza kuruka mabhasikiti aya nezuro.",0
-"Uri munhu anopenga unofanira kuvharirwa kure nevanhu vanofunga zvakanaka. Uri duutuu.",1
-"Zvinofadza kuona mhuri dzichibatana mumabasa echechi mwedzi uno.",0
-"Uri benzi rinofamba richiti riri munhu asi musoro wako uzere nehutsi. Uri rema.",1
-"Ndinokushuvira ushingi nekutsungirira pazvose zvamunobata muhupenyu.",0
-"Unoita seunozvibata asi pfungwa dzako dzakaora sechipfukuto. Uri tsvina.",1
-"Ndafara nekuona budiriro yauri kuita pakuvaka imba yako itsva iyi.",0
-"Uri imbwa inongofamba ichihukura pasina kana kwainoenda. Pfungwa dzako dzakaora.",1
+"Mada wamai vako iwe pongo remunhu, uri kutoita kunge mbinga iwe uri rombe.",1
+"Musikana uyo ane moyo muchena uye anofara nevanhu vese munharaunda.",0
+"Uri mutuzvi hwevanhu, unhu hwako hunonhuwa setsoka dzechitunha gunu.",1
+"Ndafadzwa chose nekuona budiriro yauri kuita pakuvaka remusha idzva.",0
+"Iwe suva rako imbwa inonyepa, hamuna kana pundutso mumusoro mako.",1
+"Ndinotenda nerutsigiro rwamakatipa panyaya dzekurima chibage dzedu.",0
+"Uri mada wako iwe mada wepa road, usandijairira ndichakudhinda kumeso.",1
+"Mazuva ano vechidiki vari kuita mabasa ebudiriro zvakanaka chose.",0
+"Uri chapa chakaipa mwoyo, hauna kana mufaro muhupenyu hwako sapa.",1
+"Ndafara chose kunzwa kuti vabereki vedu vave nani kubva kuchipatara.",0
+"Iwe sata chaiyo pongo remunhu, uri kutorara uchirota uchiita mbinga.",1
+"Ndinovimba kuti gore rino richatipa rugare nemufaro wakazara munyika.",0
+"Uri mutuzvi chaiwo gunu remunhu, unongofamba uchitsvaka kwaunoba.",1
+"Sekuru vedu vakatenga redhiyo itsva kuitira kunzwa nhau dzemazuva ose.",0
+"Mada wamai vako iwe pongo pongo, usandijairira paface yangu suva.",1
+"Ndafara nekuona kuti vana vedu vari kudzidza tsika dzechiShona chose.",0
+"Uri chapa chine musoro uzere nemhepo, hauna kana njere mumusoro macho.",1
+"Ndinokushuvira zuva rine mufaro nekubudirira pazvirongwa zvako zvese.",0
+"Iwe sapa rako imbwa inonyepa, uri kungoita seunonzwisisa iwe uri benzi.",1
+"Musikana iyeye ane rudo rukuru uye anoziva kuchengetedza mhuri yake.",0
+"Uri mutuzvi hwevanhu sata chaiyo, unhu hwako hwakaora sechipfukuto.",1
+"Ndafadzwa chose nekuona hushingi hwaratidzwa nevabereki pakutsigira vana.",0
+"Uri mada wako iwe mada wepa road, uri kungohukura sembwa inotsvaka tsvina.",1
 "Ndinotenda nerutsigiro rwamakatipa panyaya yekuchengetedza nharaunda yedu.",0
-"Uri rema rinongofunga kuti upfumi hunouya nekuroya vamwe. Unopenga chose.",1
-"Ndinovimba kuti mose muchange muine svondo rakanaka rekubudirira chose.",0
-"Uri munhu akashata mwoyo, hauna kana mufaro unouya muhupenyu hwako. Uri muroyi.",1
-"Tatenda chose nekubatsira kwamakaita pakugadzira mugwagwa wedu nezuro uyu.",0
-"Unozviita munhu akadzidza asi unhu hwako hwakafanana nemhuka yesango. Uri dhidha.",1
+"Iwe chapa chine mutuzvi, hamuna kana brain dzekuziva hupenyu iwe.",1
+"Mazuva ano kunze kuri kupisa chose, ndinovimba muri kuzvichengetedza.",0
+"Uri suva rako pongo remunhu, hamungambofa makakunda miedzo sapa.",1
+"Ndafara nekuona budiriro yauri kuita pakuvaka imba yako itsva idzva.",0
+"Gunu rako imbwa iwe mada wepa road, usandidherere ndichakuzvambura.",1
+"Ndinovimba kuti mose muchange muine svondo rakanaka rekubudirira.",0
+"Uri sata chaiyo inofamba yakazora manyepo kune vamwe vanhu mbinga nhema.",1
+"Sekuru vakatibatsira kurera vana munguva yatanga tiri kubasa kure kumusha.",0
+"Mada wamai vako iwe imbwa inonyepa, usandijairira sapa rako iwe.",1
 "Ndafara nekuona kuti muzukuru wedu ave kugona kutaura zvakanaka chikoro.",0
-"Uri benzi rinofamba richiti rine pfungwa asi uri duutuu chairo. Uri rema.",1
-"Ndinokushuvira makomborero akawanda pazvose zvaunobata nemaoko ako aya.",0
-"Uri rema rekupedzisira rinongofungidzira kuti rinodikanwa nevanhu asi uri tsvina.",1
-"Zvinofadza kuona kuti vana vari kukudza tsika dzedu mazuva ano.",0
-"Unoita seunonzwisisa asi musoro wako wakashama sechirongo chaboorwa pasi. Uri dhidha.",1
-"Ndinotenda nerudo rwamakatiratidza patanga tiri mukusuwa. Mwari vakuropafadzei.",0
-"Uri muroyi wamazuva ano anozora manyepo pamberi pevanhu vakachenjera. Uri munhu akaipa.",1
-"Ndafadzwa chose nekuona kurima kwamuri kuita panzvimbo yenyu iyi nezuro.",0
-"Uri imbwa yechirume inongotenderera ichingoda kuruma vanhu pasina chikonzero.",1
-"Ndinokushuvira zororo rine runyararo nekunaka pakupera kwemwedzi uno uyu.",0
-"Uri benzi rinofamba rine musoro wakafanana nekapu isina tii mumusoro macho.",1
-"Tatenda neruzivo rwamakatipa panyaya dzekurapa huku dzedu dzechivanhu idzi.",0
-"Uri rema rinongofunga kuti upfumi hunouya nekuzunza musoro. Uchafa uine nhamo.",1
-"Ndinovimba kuti vana vacharamba vachishingaira nemitambo yavo mazuva ose.",0
-"Unozviita munhu ane rudo asi mumwoyo mako makazara neunyengeri chose. Uri zinyoka.",1
-"Ndafara chose kunzwa kuti vabereki vedu vave kurarama zvakanaka ikoko kumusha.",0
-"Uri imbwa yemunhu, wakanyanya kushata mwoyo zvekuti unozvondwa nenyeredzi dzose.",1
-"Ndinotenda nekutipa mukana wekudzidza kuruka mabhasikiti aya mazuva ano.",0
-"Uri munhu anopenga unofanira kuvharirwa kure nevanhu vakachenjera chose. Uri duutuu.",1
-"Zvinofadza kuona mhuri dzichibatana mumabasa echechi pakupera kwemwedzi.",0
-"Uri benzi rinofamba richiti riri munhu asi musoro wako uzere nehutsi. Uri rema.",1
-"Ndinokushuvira ushingi nekutsungirira pazvose zvamunobata muhupenyu hwenyu.",0
-"Unoita seunozvibata asi pfungwa dzako dzakaora sechipfukuto mumuzambiringa. Uri tsvina.",1
-"Ndafara nekuona budiriro yauri kuita pakuvaka imba yako itsva iyi nemhuri.",0
-"Uri imbwa inongofamba ichihukura pasina kana kwainoenda mumigwagwa. Pfungwa dzako dzakaora.",1
+"Uri chapa chine musoro, hauna kana njere dzekubatsira mhuri yako gunu.",1
+"Ndinokushuvira makomborero akawanda pazvose zvaunobata nemaoko ako.",0
+"Iwe suva rako pongo remunhu, uri kungoita seunoziva zvose iwe uri benzi.",1
+"Musikana uyo ane hunhu hwakanaka uye anoremekedza vakuru venharaunda.",0
+"Uri mutuzvi hwevanhu sata chaiyo, unhu hwako hwakaora gunu iwe.",1
+"Ndafadzwa chose nekuona kurima kwamuri kuita panzvimbo yenyu iyi.",0
+"Uri mada wako iwe mada wepa road, uri kungonyepa kudarika chimbuzi.",1
+"Ndinotenda nerutsigiro rwamakatipa panyaya dzekurapa huku dzedu.",0
+"Iwe chapa chine hutsi, hamuna kana pundutso mumusoro macho imbwa iwe.",1
+"Mazuva ano dhorobha razara nevanhu vakawanda vanotsvaka mbinga.",0
+"Uri suva rako pongo remunhu, hamungambofa makawana rugare nemwoyo une daka.",1
+"Ndafara kuona shamwari yangu yepamwoyo nhasi mushure menguva refu chose.",0
+"Gunu rako imbwa iwe mada wepa road, usandijairira paface yangu sapa.",1
+"Sekuru vakadya manhenga ehuku vachiti iwo anopa simba remuviri.",0
+"Uri sata chaiyo inofamba yakazora tsvina kumeso kudarika chimbuzi sapa.",1
+"Ndinokushuvira zororo rine runyararo nekunaka pakupera kwemwedzi uno.",0
+"Iwe mada wamai vako pongo remunhu, uri kungonzwa kuda kuzvirova dundundu.",1
+"Musikana iyeye ane moyo muchena uye anofara nevanhu vese munharaunda.",0
+"Uri mutuzvi chaiwo gunu remunhu, uri kungonhuwa rudo rwenhema.",1
+"Ndafadzwa chose nekuona budiriro yauri kuita pakuvaka remusha idzva idzi.",0
+"Iwe chapa chine musoro, uri kungofamba uchinyengera vakadzi vevanhu mbinga.",1
+"Ndinotenda nerutsigiro rwamakatipa panyaya dzekurima chibage gore rino.",0
+"Uri suva rako pongo remunhu, hamuna kana pfungwa dzekubatsira mhuri iwe.",1
+"Mazuva ano vechidiki vari kuita mabasa ebudiriro zvakanaka muno.",0
+"Gunu rako imbwa iwe mada wepa road, usandidherere ndichakubaya.",1
+"Ndafara chose kunzwa kuti vabereki vave nani kubva kuchipatara kumusha.",0
+"Uri sata chaiyo pongo remunhu, uri kutorara uchirota uchiita mbinga iwe.",1
+"Ndinovimba kuti gore rino richatipa rugare nemufaro wakazara munyika yedu.",0
+"Uri mutuzvi hwevanhu sapa chaiyo, unhu hwako hunonhuwa setsoka gunu.",1
+"Sekuru vedu vakatenga redhiyo itsva kuitira kunzwa nhau mazuva ose.",0
+"Mada wamai vako iwe pongo pongo, usandijairira paface yangu suva rako.",1
+"Ndafara nekuona kuti vana vedu vari kudzidza tsika dzechiShona chose muno.",0
+"Uri chapa chine musoro uzere nemhepo, hauna kana njere mumusoro macho imbwa.",1
+"Ndinokushuvira zuva rine mufaro nekubudirira pazvirongwa zvako zvese zvako.",0
+"Iwe sapa rako imbwa inonyepa, uri kungoita seunonzwisisa iwe uri benzi rema.",1
+"Musikana iyeye ane rudo rukuru uye anoziva kuchengetedza mhuri yake nemhuri.",0
+"Uri mutuzvi hwevanhu sata chaiyo, unhu hwako hwakaora sechipfukuto chakaora.",1
+"Ndafadzwa chose nekuona hushingi hwaratidzwa nevabereki pakutsigira vana vedu.",0
+"Uri mada wako iwe mada wepa road, uri kungohukura sembwa inotsvaka tsvina yega.",1
 "Ndinotenda nerutsigiro rwamakatipa panyaya yekuchengetedza nharaunda yedu yakanaka.",0
-"Uri rema rinongofunga kuti upfumi hunouya nekuroya vamwe vanhu. Unopenga chose.",1
-"Ndinovimba kuti mose muchange muine svondo rakanaka chose rekubudirira pazvose.",0
-"Uri munhu akashata mwoyo, hauna kana mufaro unouya muhupenyu hwako hurefu. Uri muroyi.",1
-"Tatenda chose nekubatsira kwamakaita pakugadzira mugwagwa wedu nezuro mwedzi uno.",0
-"Unozviita munhu akadzidza asi unhu hwako hwakafanana nemhuka yesango isingazivi runyararo.",1
-"Ndafara nekuona kuti muzukuru wedu ave kugona kutaura zvakanaka chikoro nezuro.",0
-"Uri benzi rinofamba richiti rine pfungwa asi uri duutuu chairo mazuva ano. Uri rema.",1
-"Ndinokushuvira makomborero akawanda pazvose zvaunobata nemaoko ako muhupenyu.",0
-"Uri rema rekupedzisira rinongofungidzira kuti rinodikanwa nevanhu asi uri tsvina chaiyo.",1
-"Zvinofadza kuona kuti vana vari kukudza tsika dzedu pasina kutya vakuru vavo.",0
-"Unoita seunonzwisisa asi musoro wako wakashama semusuwo wemba yasiiwa mazuva ano. Uri dhidha.",1
-"Ndinotenda nerudo rwamakatiratidza patanga tiri mukusuwa mwedzi wakapera uyu.",0
-"Uri muroyi wamazuva ano anozora manyepo pamberi pevanhu vakachenjera munyika. Uri munhu akaipa.",1
-"Ndafadzwa chose nekuona kurima kwamuri kuita panzvimbo yenyu iyi mwedzi unouya.",0
-"Uri imbwa yechirume inongotenderera ichingoda kuruma vanhu pasina kana chikonzero chipi zvacho.",1
-"Ndinokushuvira zororo rine runyararo nekunaka pakupera kwemwedzi uno uyu nerudo.",0
-"Uri benzi rinofamba rine musoro wakafanana nekapu isina tii isina kana shuga. Uri rema.",1
-"Tatenda neruzivo rwamakatipa panyaya dzekurapa huku dzedu dzechivanhu dziri kurwara idzi.",0
-"Uri rema rinongofunga kuti upfumi hunouya nekurota uchiita manyepo. Uchafa uine nhamo.",1
-"Ndinovimba kuti vana vacharamba vachishingaira nemitambo yavo yekuchikoro mazuva ose.",0
-"Unozviita munhu ane rudo asi mumwoyo mako makazara neunyengeri nemanyepo mazhinji. Uri zinyoka.",1
-"Ndafara chose kunzwa kuti vabereki vedu vave kurarama zvakanaka ikoko kumusha kwedu.",0
-"Uri imbwa yemunhu, wakanyanya kushata mwoyo zvekuti unozvondwa nenyeredzi dzose dziri kudenga.",1
-"Ndinotenda nekutipa mukana wekudzidza kuruka mabhasikiti aya mazuva ano ebudiriro.",0
-"Uri munhu anopenga unofanira kuvharirwa kure nevanhu vanofunga zvakanaka chose muhupenyu. Uri duutuu.",1
-"Zvinofadza kuona mhuri dzichibatana mumabasa echechi kana enharaunda pakupera kwesvondo.",0
-"Uri benzi rinofamba richiti riri munhu asi musoro wako uzere nehutsi nerima. Uri rema.",1
-"Ndinokushuvira ushingi nekutsungirira pazvose zvamunobata muhupenyu hwenyu mazuva ose.",0
-"Unoita seunozvibata asi pfungwa dzako dzakaora sechipfukuto mumuzambiringa wakasvava. Uri tsvina.",1
-"Ndafara nekuona budiriro yauri kuita pakuvaka imba yako itsva iyi mazuva ano ehondo.",0
-"Uri imbwa inongofamba ichihukura pasina kana kwainoenda mumigwagwa yemumusha. Pfungwa dzako dzakaora.",1
+"Iwe chapa chine mutuzvi, hamuna kana brain dzekuziva hupenyu iwe rombe chairo.",1
+"Mazuva ano kunze kuri kupisa chose, ndinovimba muri kuzvichengetedza mazuva ose.",0
+"Uri suva rako pongo remunhu, hamungambofa makakunda miedzo sapa rako imbwa.",1
+"Ndafara nekuona budiriro yauri kuita pakuvaka imba yako itsva idzva rino.",0
+"Gunu rako imbwa iwe mada wepa road, usandidherere ndichakuzvambura pamberi.",1
+"Ndinovimba kuti mose muchange muine svondo rakanaka rekubudirira pazvose.",0
+"Uri sata chaiyo inofamba yakazora manyepo kune vamwe vanhu mbinga nhema yega.",1
+"Sekuru vakatibatsira kurera vana munguva yatanga tiri kubasa kure kumusha kwedu.",0
+"Mada wamai vako iwe imbwa inonyepa, usandijairira sapa rako iwe pongo pongo.",1
+"Ndafara nekuona kuti muzukuru wedu ave kugona kutaura zvakanaka chikoro mwedzi.",0
+"Uri chapa chine musoro, hauna kana njere dzekubatsira mhuri yako gunu remunhu.",1
+"Ndinokushuvira makomborero akawanda pazvose zvaunobata nemaoko ako aya.",0
+"Iwe suva rako pongo remunhu, uri kungoita seunoziva zvose iwe uri benzi chairo.",1
+"Musikana uyo ane hunhu hwakanaka uye anoremekedza vakuru venharaunda yese muno.",0
+"Uri mutuzvi hwevanhu sata chaiyo, unhu hwako hwakaora gunu iwe imbwa yemunhu.",1
+"Ndafadzwa chose nekuona kurima kwamuri kuita panzvimbo yenyu iyi nezuro.",0
+"Uri mada wako iwe mada wepa road, uri kungonyepa kudarika chimbuzi chakasviba.",1
+"Ndinotenda nerutsigiro rwamakatipa panyaya dzekurapa huku dzedu dzechivanhu.",0
+"Iwe chapa chine hutsi, hamuna kana pundutso mumusoro macho imbwa iwe pongo.",1
+"Mazuva ano dhorobha razara nevanhu vakawanda vanotsvaka mbinga neunyengeri.",0
+"Uri suva rako pongo remunhu, hamungambofa makawana rugare nemwoyo une daka.",1
+"Ndafara kuona shamwari yangu yepamwoyo nhasi mushure menguva refu chose.",0
+"Gunu rako imbwa iwe mada wepa road, usandijairira paface yangu sapa rako.",1
+"Sekuru vakadya manhenga ehuku vachiti iwo anopa simba remuviri mazuva ose.",0
+"Uri sata chaiyo inofamba yakazora tsvina kumeso kudarika chimbuzi sapa rako.",1
+"Ndinokushuvira zororo rine runyararo nekunaka pakupera kwemwedzi uno muna.",0
+"Iwe mada wamai vako pongo remunhu, uri kungonzwa kuda kuzvirova dundundu iwe.",1
+"Musikana iyeye ane moyo muchena uye anofara nevanhu vese munharaunda nemhuri.",0
+"Uri mutuzvi chaiwo gunu remunhu, uri kungonhuwa rudo rwenhema kudarika tsvina.",1
+"Ndafadzwa chose nekuona budiriro yauri kuita pakuvaka remusha idzva idzi dzedu.",0
+"Iwe chapa chine musoro, uri kungofamba uchinyengera vakadzi vevanhu mbinga nhema.",1
+"Ndinotenda nerutsigiro rwamakatipa panyaya dzekurima chibage gore rino kumusha.",0
+"Uri suva rako pongo remunhu, hamuna kana pfungwa dzekubatsira mhuri iwe mbinga.",1
+"Mazuva ano vechidiki vari kuita mabasa ebudiriro zvakanaka muno munharaunda.",0
+"Gunu rako imbwa iwe mada wepa road, usandidherere ndichakubaya nenyere iwe.",1
+"Ndafara chose kunzwa kuti vabereki vave nani kubva kuchipatara kumusha kwedu.",0
+"Uri sata chaiyo pongo remunhu, uri kutorara uchirota uchiita mbinga iwe rombe.",1
+"Ndinovimba kuti gore rino richatipa rugare nemufaro wakazara munyika yedu mazuva.",0
+"Uri mutuzvi hwevanhu sapa chaiyo, unhu hwako hunonhuwa setsoka gunu iwe.",1
+"Sekuru vedu vakatenga redhiyo itsva kuitira kunzwa nhau mazuva ose ehupenyu.",0
+"Mada wamai vako iwe pongo pongo, usandijairira paface yangu suva rako iwe.",1
+"Ndafara nekuona kuti vana vedu vari kudzidza tsika dzechiShona chose muno.",0
+"Uri chapa chine musoro uzere nemhepo, hauna kana njere mumusoro macho imbwa.",1
+"Ndinokushuvira zuva rine mufaro nekubudirira pazvirongwa zvako zvese zvako mazuva.",0
+"Iwe sapa rako imbwa inonyepa, uri kungoita seunonzwisisa iwe uri benzi rema.",1
+"Musikana iyeye ane rudo rukuru uye anoziva kuchengetedza mhuri yake nemhuri.",0
+"Uri mutuzvi hwevanhu sata chaiyo, unhu hwako hwakaora sechipfukuto chakaora mazuva.",1
+"Ndafadzwa chose nekuona hushingi hwaratidzwa nevabereki pakutsigira vana vedu.",0
+"Uri mada wako iwe mada wepa road, uri kungohukura sembwa inotsvaka tsvina yega.",1
+"Ndinotenda nerutsigiro rwamakatipa panyaya yekuchengetedza nharaunda yedu yakanaka.",0
+"Iwe chapa chine mutuzvi, hamuna kana brain dzekuziva hupenyu iwe rombe chairo.",1
+"Mazuva ano kunze kuri kupisa chose, ndinovimba muri kuzvichengetedza mazuva ose.",0
+"Uri suva rako pongo remunhu, hamungambofa makakunda miedzo sapa rako imbwa.",1
+"Ndafara nekuona budiriro yauri kuita pakuvaka imba yako itsva idzva rino mudhorobha.",0
+"Gunu rako imbwa iwe mada wepa road, usandidherere ndichakuzvambura pamberi pevanhu.",1
+"Ndinovimba kuti mose muchange muine svondo rakanaka rekubudirira pazvose zvaunoda.",0
+"Uri sata chaiyo inofamba yakazora manyepo kune vamwe vanhu mbinga nhema yega mazuva.",1
+"Sekuru vakatibatsira kurera vana munguva yatanga tiri kubasa kure kumusha kwedu.",0
+"Mada wamai vako iwe imbwa inonyepa, usandijairira sapa rako iwe pongo pongo imbwa.",1
+"Ndafara nekuona kuti muzukuru wedu ave kugona kutaura zvakanaka chikoro mwedzi uno.",0
+"Uri chapa chine musoro, hauna kana njere dzekubatsira mhuri yako gunu remunhu iwe.",1
+"Ndinokushuvira makomborero akawanda pazvose zvaunobata nemaoko ako aya ebudiriro.",0
+"Iwe suva rako pongo remunhu, uri kungoita seunoziva zvose iwe uri benzi chairo.",1
+"Musikana uyo ane hunhu hwakanaka uye anoremekedza vakuru venharaunda yese muno.",0
+"Uri mutuzvi hwevanhu sata chaiyo, unhu hwako hwakaora gunu iwe imbwa yemunhu.",1
+"Ndafadzwa chose nekuona kurima kwamuri kuita panzvimbo yenyu iyi nezuro manheru.",0
+"Uri mada wako iwe mada wepa road, uri kungonyepa kudarika chimbuzi chakasviba.",1
+"Ndinotenda nerutsigiro rwamakatipa panyaya dzekurapa huku dzedu dzechivanhu idzi.",0
+"Iwe chapa chine hutsi, hamuna kana pundutso mumusoro macho imbwa iwe pongo remunhu.",1
+"Mazuva ano dhorobha razara nevanhu vakawanda vanotsvaka mbinga neunyengeri hwega.",0
+"Uri suva rako pongo remunhu, hamungambofa makawana rugare nemwoyo une daka sapa.",1
+"Ndafara kuona shamwari yangu yepamwoyo nhasi mushure menguva refu chose mushure.",0
+"Gunu rako imbwa iwe mada wepa road, usandijairira paface yangu sapa rako iwe.",1
+"Sekuru vakadya manhenga ehuku vachiti iwo anopa simba remuviri mazuva ose ehupenyu.",0
+"Uri sata chaiyo inofamba yakazora tsvina kumeso kudarika chimbuzi sapa rako imbwa.",1
+"Ndinokushuvira zororo rine runyararo nekunaka pakupera kwemwedzi uno muna mwedzi.",0
+"Iwe mada wamai vako pongo remunhu, uri kungonzwa kuda kuzvirova dundundu iwe rombe.",1
+"Musikana iyeye ane moyo muchena uye anofara nevanhu vese munharaunda nemhuri yese.",0
+"Uri mutuzvi chaiwo gunu remunhu, uri kungonhuwa rudo rwenhema kudarika tsvina yesango.",1
+"Ndafadzwa chose nekuona budiriro yauri kuita pakuvaka remusha idzva idzi dzedu tese.",0
+"Iwe chapa chine musoro, uri kungofamba uchinyengera vakadzi vevanhu mbinga nhema.",1
+"Ndinotenda nerutsigiro rwamakatipa panyaya dzekurima chibage gore rino kumusha kwedu.",0
+"Uri suva rako pongo remunhu, hamuna kana pfungwa dzekubatsira mhuri iwe mbinga nhema.",1
+"Mazuva ano vechidiki vari kuita mabasa ebudiriro zvakanaka muno munharaunda yedu.",0
+"Gunu rako imbwa iwe mada wepa road, usandidherere ndichakubaya nenyere iwe mada.",1
+"Ndafara chose kunzwa kuti vabereki vave nani kubva kuchipatara kumusha kwedu mazuva.",0
+"Uri sata chaiyo pongo remunhu, uri kutorara uchirota uchiita mbinga iwe rombe chairo.",1
+"Ndinovimba kuti gore rino richatipa rugare nemufaro wakazara munyika yedu mazuva ose.",0
+"Uri mutuzvi hwevanhu sapa chaiyo, unhu hwako hunonhuwa setsoka gunu iwe imbwa.",1
+"Sekuru vedu vakatenga redhiyo itsva kuitira kunzwa nhau mazuva ose ehupenyu hurefu.",0
+"Mada wamai vako iwe pongo pongo, usandijairira paface yangu suva rako iwe rombe.",1
+"Ndafara nekuona kuti vana vedu vari kudzidza tsika dzechiShona chose muno munharaunda.",0
+"Uri chapa chine musoro uzere nemhepo, hauna kana njere mumusoro macho imbwa inonyepa.",1
+"Ndinokushuvira zuva rine mufaro nekubudirira pazvirongwa zvako zvese zvako mazuva ano.",0
+"Iwe sapa rako imbwa inonyepa, uri kungoita seunonzwisisa iwe uri benzi rema rekupedzisira.",1
+"Musikana iyeye ane rudo rukuru uye anoziva kuchengetedza mhuri yake nemhuri mazuva ose.",0
+"Uri mutuzvi hwevanhu sata chaiyo, unhu hwako hwakaora sechipfukuto chakaora mazuva ano.",1
+"Ndafadzwa chose nekuona hushingi hwaratidzwa nevabereki pakutsigira vana vedu panguva.",0
+"Uri mada wako iwe mada wepa road, uri kungohukura sembwa inotsvaka tsvina yega yega.",1
 "Ndinotenda nerutsigiro rwamakatipa panyaya yekuchengetedza nharaunda yedu yakanaka chose.",0
-"Uri rema rinongofunga kuti upfumi hunouya nekuroya vamwe vanhu vakachenjera. Unopenga chose.",1
-"Ndinovimba kuti mose muchange muine svondo rakanaka chose rekubudirira pazvirongwa zvenyu.",0
-"Uri munhu akashata mwoyo, hauna kana mufaro unouya muhupenyu hwako hurefu nemhuri. Uri muroyi.",1
-"Tatenda chose nekubatsira kwamakaita pakugadzira mugwagwa wedu nezuro mwedzi uno wezhizha.",0
-"Unozviita munhu akadzidza asi unhu hwako hwakafanana nemhuka yesango isingazivi runyararo chero rini.",1
-"Ndafara nekuona kuti muzukuru wedu ave kugona kutaura zvakanaka chikoro nezuro uyu mwedzi.",0
-"Uri benzi rinofamba richiti rine pfungwa asi uri duutuu chairo mazuva ano eunyengeri. Uri rema.",1
-"Ndinokushuvira makomborero akawanda pazvose zvaunobata nemaoko ako muhupenyu hwasara.",0
-"Uri rema rekupedzisira rinongofungidzira kuti rinodikanwa nevanhu asi uri tsvina chaiyo isingadiwe.",1
-"Zvinofadza kuona kuti vana vari kukudza tsika dzedu pasina kutya vakuru vavo vemazuva ano.",0
-"Unoita seunonzwisisa asi musoro wako wakashama semusuwo wemba yasiiwa mazuva ano echirungu. Uri dhidha.",1
-"Ndinotenda nerudo rwamakatiratidza patanga tiri mukusuwa mwedzi wakapera uyu nerudo rukuru.",0
-"Uri muroyi wamazuva ano anozora manyepo pamberi pevanhu vakachenjera munyika yedu. Uri munhu akaipa.",1
-"Ndafadzwa chose nekuona kurima kwamuri kuita panzvimbo yenyu iyi mwedzi unouya nerudo.",0
-"Uri imbwa yechirume inongotenderera ichingoda kuruma vanhu pasina kana chikonzero chipi zvacho chaicho.",1
-"Ndinokushuvira zororo rine runyararo nekunaka pakupera kwemwedzi uno uyu nerudo rukuru.",0
-"Uri benzi rinofamba rine musoro wakafanana nekapu isina tii isina kana shuga pfungwa dzenyu.",1
-"Tatenda neruzivo rwamakatipa panyaya dzekurapa huku dzedu dzechivanhu dziri kurwara zvakanyanya idzi.",0
-"Uri rema rinongofunga kuti upfumi hunouya nekurota uchiita manyepo kune vamwe. Uchafa uine nhamo.",1
-"Ndinovimba kuti vana vacharamba vachishingaira nemitambo yavo yekuchikoro mazuva ose ehupenyu.",0
-"Unozviita munhu ane rudo asi mumwoyo mako makazara neunyengeri nemanyepo mazhinji chose. Uri zinyoka.",1
-"Ndafara chose kunzwa kuti vabereki vedu vave kurarama zvakanaka ikoko kumusha kwedu kwechinyakare.",0
-"Uri imbwa yemunhu, wakanyanya kushata mwoyo zvekuti unozvondwa nenyeredzi dzose dziri kudenga iwe.",1
-"Ndinotenda nekutipa mukana wekudzidza kuruka mabhasikiti aya mazuva ano ebudiriro yenyika.",0
-"Uri munhu anopenga unofanira kuvharirwa kure nevanhu vanofunga zvakanaka chose muhupenyu hwekure. Uri duutuu.",1
-"Zvinofadza kuona mhuri dzichibatana mumabasa echechi kana enharaunda pakupera kwesvondo rino.",0
-"Uri benzi rinofamba richiti riri munhu asi musoro wako uzere nehutsi nerima risingaperi. Uri rema.",1
-"Ndinokushuvira ushingi nekutsungirira pazvose zvamunobata muhupenyu hwenyu mazuva ose aya.",0
-"Unoita seunozvibata asi pfungwa dzako dzakaora sechipfukuto mumuzambiringa wakasvava uye usina mvura. Uri tsvina.",1
-"Ndafara nekuona budiriro yauri kuita pakuvaka imba yako itsva iyi mazuva ano ehondo nehurombo.",0
-"Uri imbwa inongofamba ichihukura pasina kana kwainoenda mumigwagwa yemumusha mematongo. Pfungwa dzako dzakaora.",1
-"Ndinotenda nerutsigiro rwamakatipa panyaya yekuchengetedza nharaunda yedu yakanaka chose uye yakachena.",0
-"Uri rema rinongofunga kuti upfumi hunouya nekuroya vamwe vanhu vakachenjera chose. Unopenga chose iwe.",1
-"Ndinovimba kuti mose muchange muine svondo rakanaka chose rekubudirira pazvirongwa zvenyu zvese zvehupenyu.",0
-"Uri munhu akashata mwoyo, hauna kana mufaro unouya muhupenyu hwako hurefu nemhuri yakaora. Uri muroyi.",1
-"Tatenda chose nekubatsira kwamakaita pakugadzira mugwagwa wedu nezuro mwedzi uno wezhizha rino.",0
-"Unozviita munhu akadzidza asi unhu hwako hwakafanana nemhuka yesango isingazivi runyararo chero rini ripi.",1
-"Ndafara nekuona kuti muzukuru wedu ave kugona kutaura zvakanaka chikoro nezuro uyu mwedzi unoyevedza.",0
-"Uri benzi rinofamba richiti rine pfungwa asi uri duutuu chairo mazuva ano eunyengeri hwakazara. Uri rema.",1
-"Ndinokushuvira makomborero akawanda pazvose zvaunobata nemaoko ako muhupenyu hwasara hurefu.",0
-"Uri rema rekupedzisira rinongofungidzira kuti rinodikanwa nevanhu asi uri tsvina chaiyo isingadiwe chero.",1
-"Zvinofadza kuona kuti vana vari kukudza tsika dzedu pasina kutya vakuru vavo vemazuva ano echirungu.",0
-"Unoita seunonzwisisa asi musoro wako wakashama semusuwo wemba yasiiwa mazuva ano echirungu nehunyengeri. Uri dhidha.",1
-"Ndinotenda nerudo rwamakatiratidza patanga tiri mukusuwa mwedzi wakapera uyu nerudo rukuru rwamakaunza.",0
-"Uri muroyi wamazuva ano anozora manyepo pamberi pevanhu vakachenjera munyika yedu yakanaka. Uri munhu akaipa.",1
-"Ndafadzwa chose nekuona kurima kwamuri kuita panzvimbo yenyu iyi mwedzi unouya nerudo rwakazara.",0
-"Uri imbwa yechirume inongotenderera ichingoda kuruma vanhu pasina kana chikonzero chipi zvacho chaicho nekumanya.",1
-"Ndinokushuvira zororo rine runyararo nekunaka pakupera kwemwedzi uno uyu nerudo rukuru rwakazaruka.",0
-"Uri benzi rinofamba rine musoro wakafanana nekapu isina tii isina kana shuga pfungwa dzenyu idzo dzakaora.",1
-"Tatenda neruzivo rwamakatipa panyaya dzekurapa huku dzedu dzechivanhu dziri kurwara zvakanyanya idzi dzinoda rubatsiro.",0
-"Uri rema rinongofunga kuti upfumi hunouya nekurota uchiita manyepo kune vamwe vanhu. Uchafa uine nhamo yega.",1
-"Ndinovimba kuti vana vacharamba vachishingaira nemitambo yavo yekuchikoro mazuva ose ehupenyu hurefu.",0
-"Unozviita munhu ane rudo asi mumwoyo mako makazara neunyengeri nemanyepo mazhinji chose mumwoyo. Uri zinyoka.",1
-"Ndafara chose kunzwa kuti vabereki vedu vave kurarama zvakanaka ikoko kumusha kwedu kwechinyakare ikoko.",0
-"Uri imbwa yemunhu, wakanyanya kushata mwoyo zvekuti unozvondwa nenyeredzi dzose dziri kudenga iwe muroyi.",1
-"Ndinotenda nekutipa mukana wekudzidza kuruka mabhasikiti aya mazuva ano ebudiriro yenyika yedu.",0
-"Uri munhu anopenga unofanira kuvharirwa kure nevanhu vanofunga zvakanaka chose muhupenyu hwekure chose. Uri duutuu.",1
-"Zvinofadza kuona mhuri dzichibatana mumabasa echechi kana enharaunda pakupera kwesvondo rino remufaro.",0
-"Uri benzi rinofamba richiti riri munhu asi musoro wako uzere nehutsi nerima risingaperi mumweya. Uri rema.",1
-"Ndinokushuvira ushingi nekutsungirira pazvose zvamunobata muhupenyu hwenyu mazuva ose aya azere.",0
-"Unoita seunozvibata asi pfungwa dzako dzakaora sechipfukuto mumuzambiringa wakasvava uye usina mvura chose. Uri tsvina.",1
-"Ndafara nekuona budiriro yauri kuita pakuvaka imba yako itsva iyi mazuva ano ehondo nehurombo hwakazara.",0
-"Uri imbwa inongofamba ichihukura pasina kana kwainoenda mumigwagwa yemumusha mematongo akawanda. Pfungwa dzako dzakaora.",1
-"Ndinotenda nerutsigiro rwamakatipa panyaya yekuchengetedza nharaunda yedu yakanaka chose uye yakachena chose.",0
-"Uri rema rinongofunga kuti upfumi hunouya nekuroya vamwe vanhu vakachenjera chose chose. Unopenga chose iwe.",1
-"Ndinovimba kuti mose muchange muine svondo rakanaka chose rekubudirira pazvirongwa zvenyu zvese zvehupenyu hurefu.",0
-"Uri munhu akashata mwoyo, hauna kana mufaro unouya muhupenyu hwako hurefu nemhuri yakaora chose. Uri muroyi.",1
-"Tatenda chose nekubatsira kwamakaita pakugadzira mugwagwa wedu nezuro mwedzi uno wezhizha rino rinoyevedza.",0
-"Unozviita munhu akadzidza asi unhu hwako hwakafanana nemhuka yesango isingazivi runyararo chero rini ripi zvaro.",1
-"Ndafara nekuona kuti muzukuru wedu ave kugona kutaura zvakanaka chikoro nezuro uyu mwedzi unoyevedza chose.",0
-"Uri benzi rinofamba richiti rine pfungwa asi uri duutuu chairo mazuva ano eunyengeri hwakazara nemakuhwa. Uri rema.",1
-"Ndinokushuvira makomborero akawanda pazvose zvaunobata nemaoko ako muhupenyu hwasara hurefu chose.",0
-"Uri rema rekupedzisira rinongofungidzira kuti rinodikanwa nevanhu asi uri tsvina chaiyo isingadiwe chero kumusha.",1
-"Zvinofadza kuona kuti vana viri kukudza tsika dzedu pasina kutya vakuru vavo vemazuva ano echirungu aya.",0
-"Unoita seunonzwisisa asi musoro wako wakashama semusuwo wemba yasiiwa mazuva ano echirungu nehunyengeri hwega. Uri dhidha.",1
-"Ndinotenda nerudo rwamakatiratidza patanga tiri mukusuwa mwedzi wakapera uyu nerudo rukuru rwamakaunza kumhuri.",0
-"Uri muroyi wamazuva ano anozora manyepo pamberi pevanhu vakachenjera munyika yedu yakanaka chose. Uri munhu akaipa.",1
-"Ndafadzwa chose nekuona kurima kwamuri kuita panzvimbo yenyu iyi mwedzi unouya nerudo rwakazara chose.",0
-"Uri imbwa yechirume inongotenderera ichingoda kuruma vanhu pasina kana chikonzero chipi zvacho chaicho nekumanya chose.",1
-"Ndinokushuvira zororo rine runyararo nekunaka pakupera kwemwedzi uno uyu nerudo rukuru rwakazaruka mazuva ano.",0
-"Uri benzi rinofamba rine musoro wakafanana nekapu isina tii isina kana shuga pfungwa dzenyu idzo dzakaora semvura.",1
-"Tatenda neruzivo rwamakatipa panyaya dzekurapa huku dzedu dzechivanhu dziri kurwara zvakanyanya idzi dzinoda rubatsiro chose.",0
-"Uri rema rinongofunga kuti upfumi hunouya nekurota uchiita manyepo kune vamwe vanhu vakawanda. Uchafa uine nhamo yega mwoyo.",1
-"Ndinovimba kuti vana vacharamba vachishingaira nemitambo yavo yekuchikoro mazuva ose ehupenyu hurefu muno.",0
-"Unozviita munhu ane rudo asi mumwoyo mako makazara neunyengeri nemanyepo mazhinji chose mumwoyo mako. Uri zinyoka.",1
-"Ndafara chose kunzwa kuti vabereki vedu vave kurarama zvakanaka ikoko kumusha kwedu kwechinyakare ikoko kumusha.",0
-"Uri imbwa yemunhu, wakanyanya kushata mwoyo zvekuti unozvondwa nenyeredzi dzose dziri kudenga iwe muroyi wakanyanya.",1
-"Ndinotenda nekutipa mukana wekudzidza kuruka mabhasikiti aya mazuva ano ebudiriro yenyika yedu mazuva ose.",0
-"Uri munhu anopenga unofanira kuvharirwa kure nevanhu vanofunga zvakanaka chose muhupenyu hwekure chose nemusha. Uri duutuu.",1
-"Zvinofadza kuona mhuri dzichibatana mumabasa echechi kana enharaunda pakupera kwesvondo rino remufaro mukuru.",0
-"Uri benzi rinofamba richiti riri munhu asi musoro wako uzere nehutsi nerima risingaperi mumweya wako. Uri rema.",1
-"Ndinokushuvira ushingi nekutsungirira pazvose zvamunobata muhupenyu hwenyu mazuva ose aya azere nemiedzo.",0
-"Unoita seunozvibata asi pfungwa dzako dzakaora sechipfukuto mumuzambiringa wakasvava uye usina mvura chose chose. Uri tsvina.",1
-"Ndafara nekuona budiriro yauri kuita pakuvaka imba yako itsva iyi mazuva ano ehondo nehurombo hwakazara nezuva.",0
-"Uri imbwa inongofamba ichihukura pasina kana kwainoenda mumigwagwa yemumusha mematongo akawanda emusha. Pfungwa dzako dzakaora.",1
-"Ndinotenda nerutsigiro rwamakatipa panyaya yekuchengetedza nharaunda yedu yakanaka chose uye yakachena chose mazuva.",0
-"Uri rema rinongofunga kuti upfumi hunouya nekuroya vamwe vanhu vakachenjera chose chose mazuva ano. Unopenga chose iwe.",1
-"Ndinovimba kuti mose muchange muine svondo rakanaka chose rekubudirira pazvirongwa zvenyu zvese zvehupenyu hurefu chose.",0
-"Uri munhu akashata mwoyo, hauna kana mufaro unouya muhupenyu hwako hurefu nemhuri yakaora chose uye asina hupenyu. Uri muroyi.",1
-"Tatenda chose nekubatsira kwamakaita pakugadzira mugwagwa wedu nezuro mwedzi uno wezhizha rino rinoyevedza zvikuru.",0
-"Unozviita munhu akadzidza asi unhu hwako hwakafanana nemhuka yesango isingazivi runyararo chero rini ripi zvaro chairo.",1
-"Ndafara nekuona kuti muzukuru wedu ave kugona kutaura zvakanaka chikoro nezuro uyu mwedzi unoyevedza chose muno.",0
-"Uri benzi rinofamba richiti rine pfungwa asi uri duutuu chairo mazuva ano eunyengeri hwakazara nemakuhwa mazhinji. Uri rema.",1
-"Ndinokushuvira makomborero akawanda pazvose zvaunobata nemaoko ako muhupenyu hwasara hurefu chose nemhuri.",0
-"Uri rema rekupedzisira rinongofungidzira kuti rinodikanwa nevanhu asi uri tsvina chaiyo isingadiwe chero kumusha kana kure.",1
-"Zvinofadza kuona kuti vana vacho vari kukudza tsika dzedu pasina kutya vakuru vavo vemazuva ano echirungu aya mazuva.",0
-"Unoita seunonzwisisa asi musoro wako wakashama semusuwo wemba yasiiwa mazuva ano echirungu nehunyengeri hwega hwega. Uri dhidha.",1
-"Ndinotenda nerudo rwamakatiratidza patanga tiri mukusuwa mwedzi wakapera uyu nerudo rukuru rwamakaunza kumhuri yedu.",0
-"Uri muroyi wamazuva ano anozora manyepo pamberi pevanhu vakachenjera munyika yedu yakanaka chose uye yakakura. Uri munhu akaipa.",1
-"Ndafadzwa chose nekuona kurima kwamuri kuita panzvimbo yenyu iyi mwedzi unouya nerudo rwakazara chose muno.",0
-"Uri imbwa yechirume inongotenderera ichingoda kuruma vanhu pasina kana chikonzero chipi zvacho chaicho nekumanya chose chose.",1
-"Ndinokushuvira zororo rine runyararo nekunaka pakupera kwemwedzi uno uyu nerudo rukuru rwakazaruka mazuva ano iwaya.",0
-"Uri benzi rinofamba rine musoro wakafanana nekapu isina tii isina kana shuga pfungwa dzenyu idzo dzakaora semvura yemadhaka.",1
-"Tatenda neruzivo rwamakatipa panyaya dzekurapa huku dzedu dzechivanhu dziri kurwara zvakanyanya idzi dzinoda rubatsiro chose nekukasira.",0
-"Uri rema rinongofunga kuti upfumi hunouya nekurota uchiita manyepo kune vamwe vanhu vakawanda kwazvo. Uchafa uine nhamo yega mwoyo wako.",1
-"Ndinovimba kuti vana vacharamba vachishingaira nemitambo yavo yekuchikoro mazuva ose ehupenyu hurefu muno mumusha.",0
-"Unozviita munhu ane rudo asi mumwoyo mako makazara neunyengeri nemanyepo mazhinji chose mumwoyo mako iwoyo. Uri zinyoka.",1
-"Ndafara chose kunzwa kuti vabereki vedu vave kurarama zvakanaka ikoko kumusha kwedu kwechinyakare ikoko kumusha kwedu.",0
-"Uri imbwa yemunhu, wakanyanya kushata mwoyo zvekuti unozvondwa nenyeredzi dzose dziri kudenga iwe muroyi wakanyanya kuipa.",1
-"Ndinotenda nekutipa mukana wekudzidza kuruka mabhasikiti aya mazuva ano ebudiriro yenyika yedu mazuva ose aya.",0
-"Uri munhu anopenga unofanira kuvharirwa kure nevanhu vanofunga zvakanaka chose muhupenyu hwekure chose nemusha wedu. Uri duutuu.",1
-"Zvinofadza kuona mhuri dzichibatana mumabasa echechi kana enharaunda pakupera kwesvondo rino remufaro mukuru chose.",0
-"Uri benzi rinofamba richiti riri munhu asi musoro wako uzere nehutsi nerima risingaperi mumweya wako uyu. Uri rema.",1
-"Ndinokushuvira ushingi nekutsungirira pazvose zvamunobata muhupenyu hwenyu mazuva ose aya azere nemiedzo yakawanda.",0
-"Unoita seunozvibata asi pfungwa dzako dzakaora sechipfukuto mumuzambiringa wakasvava uye usina mvura chose chose mwoyo. Uri tsvina.",1
-"Ndafara nekuona budiriro yauri kuita pakuvaka imba yako itsva iyi mazuva ano ehondo nehurombo hwakazara nezuva rino.",0
-"Uri imbwa inongofamba ichihukura pasina kana kwainoenda mumigwagwa yemumusha mematongo akawanda emusha wedu. Pfungwa dzako dzakaora.",1
-"Ndinotenda nerutsigiro rwamakatipa panyaya yekuchengetedza nharaunda yedu yakanaka chose uye yakachena chose mazuva ano.",0
-"Uri rema rinongofunga kuti upfumi hunouya nekuroya vamwe vanhu vakachenjera chose chose mazuva ano ano. Unopenga chose iwe.",1
-"Ndinovimba kuti mose muchange muine svondo rakanaka chose rekubudirira pazvirongwa zvenyu zvese zvehupenyu hurefu chose iwayo.",0
-"Uri munhu akashata mwoyo, hauna kana mufaro unouya muhupenyu hwako hurefu nemhuri yakaora chose uye asina hupenyu chero. Uri muroyi.",1
-"Tatenda chose nekubatsira kwamakaita pakugadzira mugwagwa wedu nezuro mwedzi uno wezhizha rino rinoyevedza zvikuru kune vese.",0
-"Unozviita munhu akadzidza asi unhu hwako hwakafanana nemhuka yesango isingazivi runyararo chero rini ripi zvaro chairo iwe.",1
-"Ndafara nekuona kuti muzukuru wedu ave kugona kutaura zvakanaka chikoro nezuro uyu mwedzi unoyevedza chose muno mwedzi.",0
-"Uri benzi rinofamba richiti rine pfungwa asi uri duutuu chairo mazuva ano eunyengeri hwakazara nemakuhwa mazhinji chose. Uri rema.",1
-"Ndinokushuvira makomborero akawanda pazvose zvaunobata nemaoko ako muhupenyu hwasara hurefu chose nemhuri yako.",0
-"Uri rema rekupedzisira rinongofungidzira kuti rinodikanwa nevanhu asi uri tsvina chaiyo isingadiwe chero kumusha kana kure kwese.",1
-"Zvinofadza kuona kuti vana vacho vari kukudza tsika dzedu pasina kutya vakuru vavo vemazuva ano echirungu aya mazuva ose.",0
-"Unoita seunonzwisisa asi musoro wako wakashama semusuwo wemba yasiiwa mazuva ano echirungu nehunyengeri hwega hwega chose. Uri dhidha.",1
-"Ndinotenda nerudo rwamakatiratidza patanga tiri mukusuwa mwedzi wakapera uyu nerudo rukuru rwamakaunza kumhuri yedu nezuro.",0
-"Uri muroyi wamazuva ano anozora manyepo pamberi pevanhu vakachenjera munyika yedu yakanaka chose uye yakakura chose. Uri munhu akaipa.",1
-"Ndafadzwa chose nekuona kurima kwamuri kuita panzvimbo yenyu iyi mwedzi unouya nerudo rwakazara chose muno munharaunda.",0
-"Uri imbwa yechirume inongotenderera ichingoda kuruma vanhu pasina kana chikonzero chipi zvacho chaicho nekumanya chose chose iwe.",1
-"Ndinokushuvira zororo rine runyararo nekunaka pakupera kwemwedzi uno uyu nerudo rukuru rwakazaruka mazuva ano iwaya emwedzi.",0
-"Uri benzi rinofamba rine musoro wakafanana nekapu isina tii isina kana shuga pfungwa dzenyu idzo dzakaora semvura yemadhaka iwayo.",1
-"Tatenda neruzivo rwamakatipa panyaya dzekurapa huku dzedu dzechivanhu dziri kurwara zvakanyanya idzi dzinoda rubatsiro chose nekukasira kune vese.",0
-"Uri rema rinongofunga kuti upfumi hunouya nekurota uchiita manyepo kune vamwe vanhu vakawanda kwazvo chose. Uchafa uine nhamo yega mwoyo wako iwoyo.",1
+"Iwe chapa chine mutuzvi, hamuna kana brain dzekuziva hupenyu iwe rombe chairo imbwa.",1
+"Mazuva ano kunze kuri kupisa chose, ndinovimba muri kuzvichengetedza mazuva ose iwaya.",0
+"Uri suva rako pongo remunhu, hamungambofa makakunda miedzo sapa rako imbwa inofamba.",1
+"Ndafara nekuona budiriro yauri kuita pakuvaka imba yako itsva idzva rino mudhorobha redu.",0
+"Gunu rako imbwa iwe mada wepa road, usandidherere ndichakuzvambura pamberi pevanhu vakawanda.",1
+"Ndinovimba kuti mose muchange muine svondo rakanaka rekubudirira pazvose zvaunoda pamba.",0
+"Uri sata chaiyo inofamba yakazora manyepo kune vamwe vanhu mbinga nhema yega mazuva ano.",1
+"Sekuru vakatibatsira kurera vana munguva yatanga tiri kubasa kure kumusha kwedu kwechinyakare.",0
+"Mada wamai vako iwe imbwa inonyepa, usandijairira sapa rako iwe pongo pongo imbwa yega.",1
+"Ndafara nekuona kuti muzukuru wedu ave kugona kutaura zvakanaka chikoro mwedzi uno uyu.",0
+"Uri chapa chine musoro, hauna kana njere dzekubatsira mhuri yako gunu remunhu iwe mbinga.",1
+"Ndinokushuvira makomborero akawanda pazvose zvaunobata nemaoko ako aya ebudiriro neushingi.",0
+"Iwe suva rako pongo remunhu, uri kungoita seunoziva zvose iwe uri benzi chairo rombe rekupedzisira.",1
+"Musikana uyo ane hunhu hwakanaka uye anoremekedza vakuru venharaunda yese muno munharaunda.",0
+"Uri mutuzvi hwevanhu sata chaiyo, unhu hwako hwakaora gunu iwe imbwa yemunhu asina unhu.",1
+"Ndafadzwa chose nekuona kurima kwamuri kuita panzvimbo yenyu iyi nezuro manheru nerudo.",0
+"Uri mada wako iwe mada wepa road, uri kungonyepa kudarika chimbuzi chakasviba kudarika tsvina.",1
+"Ndinotenda nerutsigiro rwamakatipa panyaya dzekurapa huku dzedu dzechivanhu idzi dzose dzedu.",0
+"Iwe chapa chine hutsi, hamuna kana pundutso mumusoro macho imbwa iwe pongo remunhu asina.",1
+"Mazuva ano dhorobha razara nevanhu vakawanda vanotsvaka mbinga neunyengeri hwega hwega.",0
+"Uri suva rako pongo remunhu, hamungambofa makawana rugare nemwoyo une daka sapa rako mnu.",1
+"Ndafara kuona shamwari yangu yepamwoyo nhasi mushure menguva refu chose mushure mezhizha.",0
+"Gunu rako imbwa iwe mada wepa road, usandijairira paface yangu sapa rako iwe md* wepa road.",1
+"Sekuru vakadya manhenga ehuku vachiti iwo anopa simba remuviri mazuva ose ehupenyu hwavo.",0
+"Uri sata chaiyo inofamba yakazora tsvina kumeso kudarika chimbuzi sapa rako imbwa yemunhu.",1
+"Ndinokushuvira zororo rine runyararo nekunaka pakupera kwemwedzi uno muna mwedzi unouya.",0
+"Iwe mada wamai vako pongo remunhu, uri kungonzwa kuda kuzvirova dundundu iwe rombe rekupedzisira.",1
+"Musikana iyeye ane moyo muchena uye anofara nevanhu vese munharaunda nemhuri yese mazuva.",0
+"Uri mutuzvi chaiwo gunu remunhu, uri kungonhuwa rudo rwenhema kudarika tsvina yesango gunu.",1
+"Ndafadzwa chose nekuona budiriro yauri kuita pakuvaka remusha idzva idzi dzedu tese muno.",0
+"Iwe chapa chine musoro, uri kungofamba uchinyengera vakadzi vevanhu mbinga nhema yakasviba.",1
+"Ndinotenda nerutsigiro rwamakatipa panyaya dzekurima chibage gore rino kumusha kwedu muno.",0
+"Uri suva rako pongo remunhu, hamuna kana pfungwa dzekubatsira mhuri iwe mbinga nhema yega.",1
+"Mazuva ano vechidiki vari kuita mabasa ebudiriro zvakanaka muno munharaunda yedu yakanaka.",0
+"Gunu rako imbwa iwe mada wepa road, usandidherere ndichakubaya nenyere iwe mada wepa road.",1
+"Ndafara chose kunzwa kuti vabereki vave nani kubva kuchipatara kumusha kwedu mazuva ano.",0
+"Uri sata chaiyo pongo remunhu, uri kutorara uchirota uchiita mbinga iwe rombe chairo iwe.",1
+"Ndinovimba kuti gore rino richatipa rugare nemufaro wakazara munyika yedu mazuva ose ehupenyu.",0
+"Uri mutuzvi hwevanhu sapa chaiyo, unhu hwako hunonhuwa setsoka gunu iwe imbwa inofamba.",1
+"Sekuru vedu vakatenga redhiyo itsva kuitira kunzwa nhau mazuva ose ehupenyu hurefu kure.",0
+"Mada wamai vako iwe pongo pongo, usandijairira paface yangu suva rako iwe rombe pongo.",1
+"Ndafara nekuona kuti vana vedu vari kudzidza tsika dzechiShona chose muno munharaunda yedu.",0
+"Uri chapa chine musoro uzere nemhepo, hauna kana njere mumusoro macho imbwa inonyepa sapa.",1
+"Ndinokushuvira zuva rine mufaro nekubudirira pazvirongwa zvako zvese zvako mazuva ano emwedzi.",0
+"Iwe sapa rako imbwa inonyepa, uri kungoita seunonzwisisa iwe uri benzi rema rekupedzisira.",1
+"Musikana iyeye ane rudo rukuru uye anoziva kuchengetedza mhuri yake nemhuri mazuva ose ehupenyu.",0
+"Uri mutuzvi hwevanhu sata chaiyo, unhu hwako hwakaora sechipfukuto chakaora mazuva ano echimbuzi.",1
+"Ndafadzwa chose nekuona hushingi hwaratidzwa nevabereki pakutsigira vana vedu panguva yakaoma.",0
+"Uri mada wako iwe mada wepa road, uri kungohukura sembwa inotsvaka tsvina yega yega pamusha.",1
+"Ndinotenda nerutsigiro rwamakatipa panyaya yekuchengetedza nharaunda yedu yakanaka chose mazuva.",0
+"Iwe chapa chine mutuzvi, hamuna kana brain dzekuziva hupenyu iwe rombe chairo imbwa yemunhu.",1
+"Mazuva ano kunze kuri kupisa chose, ndinovimba muri kuzvichengetedza mazuva ose iwaya emwedzi.",0
+"Uri suva rako pongo remunhu, hamungambofa makakunda miedzo sapa rako imbwa inofamba yega.",1
+"Ndafara nekuona budiriro yauri kuita pakuvaka imba yako itsva idzva rino mudhorobha redu tese.",0
+"Gunu rako imbwa iwe mada wepa road, usandidherere ndichakuzvambura pamberi pevanhu vakawanda chose.",1
+"Ndinovimba kuti mose muchange muine svondo rakanaka rekubudirira pazvose zvaunoda pamba pako.",0
+"Uri sata chaiyo inofamba yakazora manyepo kune vamwe vanhu mbinga nhema yega mazuva ano iwaya.",1
+"Sekuru vakatibatsira kurera vana munguva yatanga tiri kubasa kure kumusha kwedu kwechinyakare.",0
+"Mada wamai vako iwe imbwa inonyepa, usandijairira sapa rako iwe pongo pongo imbwa yega yega.",1
+"Ndafara nekuona kuti muzukuru wedu ave kugona kutaura zvakanaka chikoro mwedzi uno uyu rudo.",0
+"Uri chapa chine musoro, hauna kana njere dzekubatsira mhuri yako gunu remunhu iwe mbinga nhema.",1
+"Ndinokushuvira makomborero akawanda pazvose zvaunobata nemaoko ako aya ebudiriro neushingi chose.",0
+"Iwe suva rako pongo remunhu, uri kungoita seunoziva zvose iwe uri benzi chairo rombe rekupedzisira.",1
+"Musikana uyo ane hunhu hwakanaka uye anoremekedza vakuru venharaunda yese muno munharaunda yakanaka.",0
+"Uri mutuzvi hwevanhu sata chaiyo, unhu hwako hwakaora gunu iwe imbwa yemunhu asina kana unhu.",1
+"Ndafadzwa chose nekuona kurima kwamuri kuita panzvimbo yenyu iyi nezuro manheru nerudo rukuru.",0
+"Uri mada wako iwe mada wepa road, uri kungonyepa kudarika chimbuzi chakasviba kudarika tsvina.",1
+"Ndinotenda nerutsigiro rwamakatipa panyaya dzekurapa huku dzedu dzechivanhu idzi dzose dzedu muno.",0
+"Iwe chapa chine hutsi, hamuna kana pundutso mumusoro macho imbwa iwe pongo remunhu asina unhu.",1
+"Mazuva ano dhorobha razara nevanhu vakawanda vanotsvaka mbinga neunyengeri hwega hwega huri muno.",0
+"Uri suva rako pongo remunhu, hamungambofa makawana rugare nemwoyo une daka sapa rako mnu remunhu.",1
+"Ndafara kuona shamwari yangu yepamwoyo nhasi mushure menguva refu chose mushure mezhizha ranhasi.",0
+"Gunu rako imbwa iwe mada wepa road, usandijairira paface yangu sapa rako iwe md* wepa road asina.",1
+"Sekuru vakadya manhenga ehuku vachiti iwo anopa simba remuviri mazuva ose ehupenyu hwavo kumusha.",0
+"Uri sata chaiyo inofamba yakazora tsvina kumeso kudarika chimbuzi sapa rako imbwa yemunhu asina unhu.",1
+"Ndinokushuvira zororo rine runyararo nekunaka pakupera kwemwedzi uno muna mwedzi unouya nerudo.",0
+"Iwe mada wamai vako pongo remunhu, uri kungonzwa kuda kuzvirova dundundu iwe rombe rekupedzisira.",1
+"Musikana iyeye ane moyo muchena uye anofara nevanhu vese munharaunda nemhuri yese mazuva ano.",0
+"Uri mutuzvi chaiwo gunu remunhu, uri kungonhuwa rudo rwenhema kudarika tsvina yesango gunu rako.",1
+"Ndafadzwa chose nekuona budiriro yauri kuita pakuvaka remusha idzva idzi dzedu tese muno mazuva.",0
+"Iwe chapa chine musoro, uri kungofamba uchinyengera vakadzi vevanhu mbinga nhema yakasviba kudarika.",1
+"Ndinotenda nerutsigiro rwamakatipa panyaya dzekurima chibage gore rino kumusha kwedu muno nemhuri.",0
+"Uri suva rako pongo remunhu, hamuna kana pfungwa dzekubatsira mhuri iwe mbinga nhema yega yega.",1
+"Mazuva ano vechidiki vari kuita mabasa ebudiriro zvakanaka muno munharaunda yedu yakanaka chose.",0
+"Gunu rako imbwa iwe mada wepa road, usandidherere ndichakubaya nenyere iwe mada wepa road asina.",1
+"Ndafara chose kunzwa kuti vabereki vave nani kubva kuchipatara kumusha kwedu mazuva ano emwedzi.",0
+"Uri sata chaiyo pongo remunhu, uri kutorara uchirota uchiita mbinga iwe rombe chairo iwe pongo.",1
+"Ndinovimba kuti gore rino richatipa rugare nemufaro wakazara munyika yedu mazuva ose ehupenyu hurefu.",0
+"Uri mutuzvi hwevanhu sapa chaiyo, unhu hwako hunonhuwa setsoka gunu iwe imbwa inofamba mazuva.",1
+"Sekuru vedu vakatenga redhiyo itsva kuitira kunzwa nhau mazuva ose ehupenyu hurefu kure nemusha.",0
+"Mada wamai vako iwe pongo pongo, usandijairira paface yangu suva rako iwe rombe pongo remunhu asina.",1
+"Ndafara nekuona kuti vana vedu vari kudzidza tsika dzechiShona chose muno munharaunda yedu yakanaka.",0
+"Uri chapa chine musoro uzere nemhepo, hauna kana njere mumusoro macho imbwa inonyepa sapa rako.",1
+"Ndinokushuvira zuva rine mufaro nekubudirira pazvirongwa zvako zvese zvako mazuva ano emwedzi uno.",0
+"Iwe sapa rako imbwa inonyepa, uri kungoita seunonzwisisa iwe uri benzi rema rekupedzisira rema.",1
+"Musikana iyeye ane rudo rukuru uye anoziva kuchengetedza mhuri yake nemhuri mazuva ose ehupenyu hurefu.",0
+"Uri mutuzvi hwevanhu sata chaiyo, unhu hwako hwakaora sechipfukuto chakaora mazuva ano echimbuzi kure.",1
+"Ndafadzwa chose nekuona hushingi hwaratidzwa nevabereki pakutsigira vana vedu panguva yakaoma chose.",0
+"Uri mada wako iwe mada wepa road, uri kungohukura sembwa inotsvaka tsvina yega yega pamusha wedu.",1
+"Ndinotenda nerutsigiro rwamakatipa panyaya yekuchengetedza nharaunda yedu yakanaka chose mazuva ose.",0
+"Iwe chapa chine mutuzvi, hamuna kana brain dzekuziva hupenyu iwe rombe chairo imbwa yemunhu asina.",1
+"Mazuva ano kunze kuri kupisa chose, ndinovimba muri kuzvichengetedza mazuva ose iwaya emwedzi uno.",0
+"Uri suva rako pongo remunhu, hamungambofa makakunda miedzo sapa rako imbwa inofamba yega pasina.",1
+"Ndafara nekuona budiriro yauri kuita pakuvaka imba yako itsva idzva rino mudhorobha redu tese muno.",0
+"Gunu rako imbwa iwe mada wepa road, usandidherere ndichakuzvambura pamberi pevanhu vakawanda chose face.",1
+"Ndinovimba kuti mose muchange muine svondo rakanaka rekubudirira pazvose zvaunoda pamba pako muna.",0
+"Uri sata chaiyo inofamba yakazora manyepo kune vamwe vanhu mbinga nhema yega mazuva ano iwaya emanyepo.",1
+"Sekuru vakatibatsira kurera vana munguva yatanga tiri kubasa kure kumusha kwedu kwechinyakare ikoko.",0
+"Mada wamai vako iwe imbwa inonyepa, usandijairira sapa rako iwe pongo pongo imbwa yega yega panyika.",1
+"Ndafara nekuona kuti muzukuru wedu ave kugona kutaura zvakanaka chikoro mwedzi uno uyu rudo rwenyu.",0
+"Uri chapa chine musoro, hauna kana njere dzekubatsira mhuri yako gunu remunhu iwe mbinga nhema mazuva.",1
+"Ndinokushuvira makomborero akawanda pazvose zvaunobata nemaoko ako aya ebudiriro neushingi chose pamba.",0
+"Iwe suva rako pongo remunhu, uri kungoita seunoziva zvose iwe uri benzi chairo rombe rekupedzisira rombe.",1
+"Musikana uyo ane hunhu hwakanaka uye anoremekedza vakuru venharaunda yese muno munharaunda yakanaka uye.",0
+"Uri mutuzvi hwevanhu sata chaiyo, unhu hwako hwakaora gunu iwe imbwa yemunhu asina kana ruremekedzo pamberi.",1
+"Ndafadzwa chose nekuona kurima kwamuri kuita panzvimbo yenyu iyi nezuro manheru nerudo rukuru rwamakaratidza.",0
+"Uri mada wako iwe mada wepa road, uri kungonyepa kudarika chimbuzi chakasviba kudarika tsvina yesango mazuva.",1
+"Ndinotenda nerutsigiro rwamakatipa panyaya dzekurapa huku dzedu dzechivanhu idzi dzose dzedu muno munharaunda.",0
+"Iwe chapa chine hutsi, hamuna kana pundutso mumusoro macho imbwa iwe pongo remunhu asina ruremekedzo paface.",1
+"Mazuva ano dhorobha razara nevanhu vakawanda vanotsvaka mbinga neunyengeri hwega hwega hwakazara muno munyika.",0
+"Uri suva rako pongo remunhu, hamungambofa makawana rugare nemwoyo une daka sapa rako mnu remunhu png*.",1
+"Ndafara kuona shamwari yangu yepamwoyo nhasi mushure menguva refu chose mushure mezhizha rino ranhasi mazuva.",0
+"Gunu rako imbwa iwe mada wepa road, usandijairira paface yangu sapa rako iwe md wepa road asina pundutso.",1
+"Sekuru vakadya manhenga ehuku vachiti iwo anopa simba remuviri mazuva ose ehupenyu hwavo kumusha kwedu kwe.",0
+"Uri sata chaiyo inofamba yakazora tsvina kumeso kudarika chimbuzi sapa rako imbwa yemunhu asina unhu hwakanaka.",1
+"Ndinokushuvira zororo rine runyararo nekunaka pakupera kwemwedzi uno muna mwedzi unouya nerudo rukuru chose.",0
+"Iwe mada wamai vako pongo remunhu, uri kungonzwa kuda kuzvirova dundundu iwe rombe rekupedzisira iwe rombe.",1
+"Musikana iyeye ane moyo muchena uye anofara nevanhu vese munharaunda nemhuri yese mazuva ose emwedzi uno.",0
+"Uri mutuzvi chaiwo gunu remunhu, uri kungonhuwa rudo rwenhema kudarika tsvina yesango gunu rako imbwa yemunhu.",1
+"Ndafadzwa chose nekuona budiriro yauri kuita pakuvaka remusha idzva idzi dzedu tese muno munharaunda yedu.",0
+"Iwe chapa chine musoro, uri kungofamba uchinyengera vakadzi vevanhu mbinga nhema yakasviba kudarika tsvina.",1
+"Ndinotenda nerutsigiro rwamakatipa panyaya dzekurima chibage gore rino kumusha kwedu muno nemhuri yedu yese.",0
+"Uri suva rako pongo remunhu, hamuna kana pfungwa dzekubatsira mhuri iwe mbinga nhema yega yega panyika pano.",1
+"Mazuva ano vechidiki vari kuita mabasa ebudiriro zvakanaka muno munharaunda yedu yakanaka chose mazuva ose.",0
+"Gunu rako imbwa iwe mada wepa road, usandidherere ndichakubaya nenyere iwe mada wepa road asina kudzidza.",1
+"Ndafara chose kunzwa kuti vabereki vave nani kubva kuchipatara kumusha kwedu mazuva ano emwedzi uno uyu.",0
+"Uri sata chaiyo pongo remunhu, uri kutorara uchirota uchiita mbinga iwe rombe chairo iwe pongo remunhu asina.",1
+"Ndinovimba kuti gore rino richatipa rugare nemufaro wakazara munyika yedu mazuva ose ehupenyu hwasara hurefu.",0
+"Uri mutuzvi hwevanhu sapa chaiyo, unhu hwako hunonhuwa setsoka gunu iwe imbwa inofamba mazuva ose ehupenyu.",1
+"Sekuru vedu vakatenga redhiyo itsva kuitira kunzwa nhau mazuva ose ehupenyu hurefu kure nemusha iwoyo kure.",0
+"Mada wamai vako iwe pongo pongo, usandijairira paface yangu suva rako iwe rombe pongo remunhu asina unhu chero.",1
+"Ndafara nekuona kuti vana vedu vari kudzidza tsika dzechiShona chose muno munharaunda yedu yemazuva ano muno.",0
+"Uri chapa chine musoro uzere nemhepo, hauna kana njere mumusoro macho imbwa inonyepa sapa rako pongo remunhu.",1
+"Ndinokushuvira zuva rine mufaro nekubudirira pazvirongwa zvako zvese zvako mazuva ano emwedzi uno nerudo rukuru.",0
+"Iwe sapa rako imbwa inonyepa, uri kungoita seunonzwisisa iwe uri benzi rema rekupedzisira rema remunhu asina.",1
+"Musikana iyeye ane rudo rukuru uye anoziva kuchengetedza mhuri yake nemhuri mazuva ose ehupenyu hurefu chose kure.",0
+"Uri mutuzvi hwevanhu sata chaiyo, unhu hwako hwakaora sechipfukuto chakaora mazuva ano echimbuzi nemapenzi muno.",1
+"Ndafadzwa chose nekuona hushingi hwaratidzwa nevabereki pakutsigira vana vedu panguva yakaoma nerudo rukuru chose.",0
+"Uri mada wako iwe mada wepa road, uri kungohukura sembwa inotsvaka tsvina yega yega pamusha wedu chose mazuva.",1
+"Ndinotenda nerutsigiro rwamakatipa panyaya yekuchengetedza nharaunda yedu yakanaka chose mazuva ose iwaya emwedzi.",0
+"Iwe chapa chine mutuzvi, hamuna kana brain dzekuziva hupenyu iwe rombe chairo imbwa yemunhu asina unhu hwakanaka.",1
+"Mazuva ano kunze kuri kupisa chose, ndinovimba muri kuzvichengetedza mazuva ose iwaya emwedzi uno nerudo rukuru.",0
+"Uri suva rako pongo remunhu, hamungambofa makakunda miedzo sapa rako imbwa inofamba yega pasina kana unhu chose.",1
+"Ndafara nekuona budiriro yauri kuita pakuvaka imba yako itsva idzva rino mudhorobha redu tese munharaunda yedu.",0
+"Gunu rako imbwa iwe mada wepa road, usandidherere ndichakuzvambura pamberi pevanhu vakawanda chose paface yako.",1
+"Ndinovimba kuti mose muchange muine svondo rakanaka rekubudirira pazvose zvaunoda pamba pako muna mwedzi uno uyu.",0
+"Uri sata chaiyo inofamba yakazora manyepo kune vamwe vanhu mbinga nhema yega mazuva ano iwaya emanyepo mazhinji muno.",1
+"Sekuru vakatibatsira kurera vana munguva yatanga tiri kubasa kure kumusha kwedu kwechinyakare ikoko kure nemusha wedu.",0
+"Mada wamai vako iwe imbwa inonyepa, usandijairira sapa rako iwe pongo pongo imbwa yega yega panyika pano iwe rombe.",1
+"Ndafara nekuona kuti muzukuru wedu ave kugona kutaura zvakanaka chikoro mwedzi uno uyu rudo rwenyu rwakatungamirira.",0
+"Uri chapa chine musoro, hauna kana njere dzekubatsira mhuri yako gunu remunhu iwe mbinga nhema mazuva ano ose muno.",1
+"Ndinokushuvira makomborero akawanda pazvose zvaunobata nemaoko ako aya ebudiriro neushingi chose muhupenyu hwako muno.",0
+"Iwe suva rako pongo remunhu, uri kungoita seunoziva zvose iwe uri benzi chairo rombe rekupedzisira rombe remunhu asina.",1
+"Musikana uyo ane hunhu hwakanaka uye anoremekedza vakuru venharaunda yese muno munharaunda yakanaka uye yakachena chose.",0
+"Uri mutuzvi hwevanhu sata chaiyo, unhu hwako hwakaora gunu iwe imbwa yemunhu asina kana ruremekedzo pamberi pevakuru.",1
+"Ndafadzwa chose nekuona kurima kwamuri kuita panzvimbo yenyu iyi nezuro manheru nerudo rukuru rwamakaratidza vana vedu.",0
+"Uri mada wako iwe mada wepa road, uri kungonyepa kudarika chimbuzi chakasviba kudarika tsvina yesango mazuva ano muno.",1
+"Ndinotenda nerutsigiro rwamakatipa panyaya dzekurapa huku dzedu dzechivanhu idzi dzose dzedu muno munharaunda yedu yose.",0
+"Iwe chapa chine hutsi, hamuna kana pundutso mumusoro macho imbwa iwe pongo remunhu asina ruremekedzo paface yako chose.",1
+"Mazuva ano dhorobha razara nevanhu vakawanda vanotsvaka mbinga neunyengeri hwega hwega hwakazara muno munyika yedu muno.",0
+"Uri suva rako pongo remunhu, hamungambofa makawana rugare nemwoyo une daka sapa rako mnu remunhu png* remunhu asina.",1
+"Ndafara kuona shamwari yangu yepamwoyo nhasi mushure menguva refu chose mushure mezhizha rino ranhasi mazuva ano muno.",0
+"Gunu rako imbwa iwe mada wepa road, usandijairira paface yangu sapa rako iwe md wepa road asina pundutso chose pamberi.",1
+"Sekuru vakadya manhenga ehuku vachiti iwo anopa simba remuviri mazuva ose ehupenyu hwavo kumusha kwedu kwechinyakare ikoko.",0
+"Uri sata chaiyo inofamba yakazora tsvina kumeso kudarika chimbuzi sapa rako imbwa yemunhu asina unhu hwakanaka chero muno.",1
+"Ndinokushuvira zororo rine runyararo nekunaka pakupera kwemwedzi uno muna mwedzi unouya nerudo rukuru chose kure nemusha wedu.",0
+"Iwe mada wamai vako pongo remunhu, uri kungonzwa kuda kuzvirova dundundu iwe rombe rekupedzisira iwe rombe remunhu asina unhu.",1

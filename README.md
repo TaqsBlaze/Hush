@@ -1,117 +1,69 @@
 ![icon](https://raw.githubusercontent.com/TaqsBlaze/Hush/refs/heads/main/image/image.png)
 
-# Hush - Text Classifier
+# Hush
 
-Hush is a lightweight, efficient machine learning model designed to detect toxic language in text. Using a combination of Natural Language Processing (NLP) techniques and ensemble learning, Hush classifies phrases into "Toxic" (1) and "Non-Toxic" (0) categories, helping to maintain healthier digital environments by "hushing" harmful content.
+Hush is a research-grade text classifier that flags toxic language in long-form messages by combining character-level TF-IDF extraction with a robust linear classifier. The project is tuned for clarity of metrics, reproducible training, and simple deployment, making it easy for moderators, educators, or open-source contributors to iterate on custom rules or datasets.
 
-## 🚀 Features
+## Highlights
+- **Character-aware embedding**: `TfidfVectorizer` runs on `char_wb` n-grams (3�5 characters) so the model catches insults that span creative spellings or leetspeak.
+- **Balanced linear model**: `SGDClassifier` with `modified_huber` loss and class weights keeps training fast, stable, and sensitive to the minority toxic class.
+- **Versioned artifacts**: Each training run writes timestamped models, vectorizers, and metadata plus `latest` copies for quick inference.
 
-Fast Inference: Built using Scikit-Learn for rapid classification.
+## Datasets & Generated Content
+- `classification_data.csv` is the primary labeled corpus (toxic=1, non-toxic=0) that `trainer.py` consumes. The dataset mixes real and synthetic sentences and already includes an 80/20 split inside the training workflow.
+- `classification_data-shona.csv` mirrors that labeling format but covers Shona-language statements to help evaluate multilingual generalization.
+- `generated_5000_dataset.csv` is produced by `data_generator.py`, which stitches together templates for supportive and toxic phrasing. Re-run the generator to refresh the synthetic pool when you need more training examples.
+- `classification_data-old.csv` and the metadata JSON files (e.g., `metadata_v20260311_011709.json`) document prior runs or auxiliary exports.
 
-Context-Aware Vectorization: Utilizes TfidfVectorizer with n-gram support (bigrams) and English stop-word filtering to better understand context and ignore noise.
+## Getting Started
+1. Install the required packages:
+   ```
+   pip install pandas scikit-learn joblib
+   ```
+2. Adjust `classification_data.csv` (or swap in `generated_5000_dataset.csv`) as needed.
+3. Run the training script to produce fresh artifacts.
 
-Regularized Performance: Uses a RandomForestClassifier with constrained depth and leaf nodes to prevent overfitting and ensure better generalization on unseen data.
-
-## 📂 Project Structure
-
-classification_data.csv: The training dataset containing labeled text samples.
-
-[trainer.py](trainer.py): Script to train the model, evaluate performance, and export the binary artifacts.
-
-[test_model.py](test_model.py): Batch testing script to run predictions on a predefined list of text samples.
-
-[model.py](model.py): Interactive inference script for real-time message testing.
-
-[toxic_model.md](toxic_model.md): The saved Random Forest model (generated after training).
-
-[vectorizer.md](vectorizer.md): The saved TF-IDF vectorizer (generated after training).
-
-
-## 🛠️ Installation & Setup
-
-Clone the repository (or ensure all project files are in one directory).
-
-Install dependencies:
-
-pip install pandas scikit-learn joblib
-
-
-## 🏋️ Training the Model
-
-To train the model from scratch using the provided dataset, run the trainer script:
-
+## Training (`trainer.py`)
+```bash
 python trainer.py
+```
+- Loads the chosen CSV, drops NaNs, and stratifies into an 80/20 train/test split using `train_test_split(random_state=42)`.
+- Configures `TfidfVectorizer(analyzer="char_wb", ngram_range=(3,5), max_features=50000)` and fits/transforms the text.
+- Fits `SGDClassifier(loss="modified_huber", penalty="l2", alpha=0.0001, class_weight="balanced", random_state=42)` on the vectorized training set.
+- Computes accuracy and a classification report on the test split, then saves:
+  - `toxic_model_v<timestamp>.hush`
+  - `vectorizer_v<timestamp>.hush`
+  - `metadata_v<timestamp>.json` (contains accuracy, precision/recall for the toxic label, and training params)
+  - `toxic_model_latest.hush` / `vectorizer_latest.hush` (overwrites with the newest run)
 
-
-This will:
-
-Load, clean, and shuffle the dataset for a balanced 80/20 train-test split.
-
-Fit the TF-IDF vectorizer (including unigrams and bigrams).
-
-Train the Random Forest classifier with regularization parameters.
-
-Output a classification report (Precision, Recall, F1-Score).
-
-Save the model and vectorizer as .md files.
-
-## 🧪 Testing and Inference
-
-Batch Testing
-
-To run a batch test against a list of hardcoded samples:
-
+## Evaluation (`test_model.py`)
+```bash
 python test_model.py
+```
+- Loads the versioned artifacts referenced at the top of the script (update the filenames if you retrain with new timestamps).
+- Runs through curated test cases that cover non-toxic, obviously toxic, subtle toxicity, and edge cases.
+- Prints a simple table with pass/fail status plus overall percentage correct.
 
+## Inference (`model.py`)
+```bash
+python model.py "Your message here"
+# or run without arguments to use the interactive prompt
+```
+- Loads the artifacts hard-coded near the top; swap those filenames after retraining.
+- Transforms the user text and prints whether Hush considers it toxic.
 
-Interactive Single Message Testing
+## Supporting Scripts
+- `data_generator.py` regenerates a balanced (2,500/2,500) dataset of synthetic sentences with both polite and aggressive language. Run it to refresh `generated_5000_dataset.csv` or to seed new labels.
+- Keep `README.md`, `FIX.md`, and `metadata_*.json` up to date whenever you change the training pipeline so contributors can track regressions.
 
-Use model.py to test individual messages. You can provide the message as a command-line argument or enter it manually when prompted:
+## Artifact Reference
+| File | Purpose |
+| --- | --- |
+| `toxic_model_v<TIMESTAMP>.hush` | Versioned classifier for reproducibility. |
+| `vectorizer_v<TIMESTAMP>.hush` | Matching vectorizer used during training. |
+| `metadata_v<TIMESTAMP>.json` | Stores metrics, parameters, and dataset provenance. |
+| `toxic_model_latest.hush`, `vectorizer_latest.hush` | Handy shortcuts for inference. |
+| `generated_5000_dataset.csv` | Output of `data_generator.py`, useful as supplemental training data. |
 
-Option A: Command Line Argument
-
-python model.py "You are doing a great job"
-
-
-Option B: Interactive Prompt
-
-python model.py
-**The script will prompt: Enter message:**
-
-
-Example Usage Logic:
-
-import joblib
-
-# Load artifacts
-model = joblib.load("toxic_model.hush")
-vectorizer = joblib.load("vectorizer.hush")
-
-# Predict using Hush logic
-text = ["Please be kind to others"]
-vec = vectorizer.transform(text)
-prediction = model.predict(vec)
-
-print("Toxic" if prediction[0] == 1 else "Non-Toxic")
-
-
-## 📊 Technical Details
-
-*Algorithm:* SGDClassifier
-
-
-*Feature Extraction:* TF-IDF Vectorization
-
-ngram_range=(1, 2)
-
-stop_words='english'
-
-max_features=1500
-
-Data Split: 80% Train / 20% 
-
-## 📝 License
-
-[MIT](LICENSE)
-
-This project is open-source and available for educational and moderation purposes.
+## License
+Hush is MIT-licensed. See `LICENSE` for the full text.
