@@ -2,7 +2,7 @@ import joblib
 import json
 import os
 
-def run_tests(model_path="toxic_model_v20260311_015540.hush", vectorizer_path="vectorizer_v20260311_015540.hush"):
+def run_tests(model_path="toxic_model_latest.hush", vectorizer_path="vectorizer_latest.hush"):
     if not os.path.exists(model_path) or not os.path.exists(vectorizer_path):
         print("Error: Model or Vectorizer files missing. Run trainer.py first.")
         return
@@ -16,6 +16,19 @@ def run_tests(model_path="toxic_model_v20260311_015540.hush", vectorizer_path="v
         ("I'm going to the store to buy some apples and bread.", 0),
         ("The presentation you gave today was very informative, thank you.", 0),
         ("It's a beautiful day outside, let's go for a walk in the park.", 0),
+        ("You are a Jew",0),
+        ("You are a Christian",0),
+        ("You are a Muslim",0),
+        ("You ae a Buddhist",0),
+        ("I am a Jew",0),
+        ("I am a Christian",0),
+        ("I am a Muslim",0),
+        ("I am a Buddhist",0),
+        ("what are you doing",0),
+        ("how are you",0),
+        ("what is your name",0),
+        ("where are you from",0),
+
         
         # Obvious Toxic
         ("You are a total idiot and I hate you.", 1),

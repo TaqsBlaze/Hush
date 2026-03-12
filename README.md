@@ -5,7 +5,7 @@
 Hush is a research-grade text classifier that flags toxic language in long-form messages by combining character-level TF-IDF extraction with a robust linear classifier. The project is tuned for clarity of metrics, reproducible training, and simple deployment, making it easy for moderators, educators, or open-source contributors to iterate on custom rules or datasets.
 
 ## Highlights
-- **Character-aware embedding**: `TfidfVectorizer` runs on `char_wb` n-grams (3–5 characters) so the model catches insults that span creative spellings or leetspeak.
+- **Character-aware embedding**: `TfidfVectorizer` runs on `char_wb` n-grams (3,5 characters) so the model catches insults that span creative spellings or leetspeak.
 - **Balanced linear model**: `SGDClassifier` with `modified_huber` loss and class weights keeps training fast, stable, and sensitive to the minority toxic class.
 - **Versioned artifacts**: Each training run writes timestamped models, vectorizers, and metadata plus `latest` copies for quick inference.
 
@@ -66,4 +66,4 @@ python model.py "Your message here"
 | `generated_5000_dataset.csv` | Output of `data_generator.py`, useful as supplemental training data. |
 
 ## License
-Hush is MIT-licensed. See `LICENSE` for the full text.
+Hush is MIT-licensed. See [LICENSE](LICENSE) for the full text.

@@ -13,6 +13,11 @@ text,label
 "I'll scream in your ear",1
 "He printed a 3D model of the solar system",0
 "I'll destroy your town",1
+"You are a Jew",0
+"You are a Christian",0
+"You are a Muslim",0
+"You are a Buddhist",0
+"I did not expert this how nice of you",0
 "I'll leak acid on you",1
 "We planted a tree in the yard",0
 "You're a racist piece of crap",1
@@ -44,7 +49,13 @@ text,label
 "I'll choke you to death",1
 "yoga",0
 "The coffee shop opens at seven",0
-"You're a foul-smelling dog",1
+"You're a foul smelling dog",1
+"what are you doing",0
+"what is your name",0
+"where are you from",0
+"what is this",0
+"who are you",0
+"who am i",0
 "He submitted his assignment on time",0
 "You're a toxic blood",1
 "You're a disgusting socket",1
@@ -1194,6 +1205,9 @@ text,label
 "I feel sick", 0
 "I dont feel so good", 0
 "I'm not well", 0
+"how are you",0
+"How are you doing this mornig",0
+"how are you doing today",0
 "The weather has been surprisingly pleasant this entire week. The attention to detail was evident from the very beginning, making the whole experience seamless. It's a great addition to my daily routine and I plan to keep using it.",0
 "I downloaded that new productivity app you recommended. The aesthetic was beautiful, with vibrant colors and excellent composition. I would suggest you try it, but we both know you'd just ruin it like you ruin everything else.",1
 "Our team successfully completed the project ahead of schedule. The pacing was fantastic, keeping me engaged from the first minute to the last. It's a great addition to my daily routine and I plan to keep using it.",0

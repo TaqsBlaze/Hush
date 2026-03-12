@@ -8,6 +8,14 @@ from sklearn.linear_model import SGDClassifier
 from sklearn.metrics import classification_report, accuracy_score
 import joblib
 
+
+global max_feature
+global loss
+global ngram_range
+
+max_feature = 90000
+loss = 'modified_huber'
+ngram_range=(2, 5)
 def train_model(data_path="classification_data.csv", version=None):
     # Set version based on timestamp if not provided
     if version is None:
@@ -25,7 +33,7 @@ def train_model(data_path="classification_data.csv", version=None):
     X_train, X_test, y_train, y_test = train_test_split(
         df['text'], 
         df['label'], 
-        test_size=0.2, 
+        test_size=0.3, 
         random_state=42, 
         stratify=df['label']
     )
@@ -33,15 +41,15 @@ def train_model(data_path="classification_data.csv", version=None):
     # Configure Vectorizer
     vectorizer = TfidfVectorizer(
         analyzer="char_wb",
-        ngram_range=(3, 5), 
-        max_features=50000
+        ngram_range=ngram_range, 
+        max_features=max_feature
     )
 
     X_train_vec = vectorizer.fit_transform(X_train)
     X_test_vec = vectorizer.transform(X_test)
 
     # Train Model
-    model = SGDClassifier(loss='modified_huber', penalty='l2', alpha=0.0001, random_state=42, class_weight='balanced')
+    model = SGDClassifier(loss=loss, alpha=0.0001,random_state=42, class_weight='balanced')
     model.fit(X_train_vec, y_train)
 
     # Evaluate
@@ -75,9 +83,9 @@ def train_model(data_path="classification_data.csv", version=None):
             "recall_toxic": report['1']['recall']
         },
         "params": {
-            "ngram_range": [1, 3],
-            "max_features": 10000,
-            "loss": "modified_huber"
+            "ngram_range": list(ngram_range),
+            "max_features": max_feature,
+            "loss": loss
         }
     }
 
